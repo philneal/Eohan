@@ -1,0 +1,462 @@
+body{
+    font-family: Garamond;
+    font-size: 14pt;
+    background-color: hsl(260,10%,95%);
+    margin: 0;
+    padding: 0;
+}
+
+/* Page structure creaated with divs */
+
+div.wrapper{
+  width: 100%;
+  background-color: hsl(260,5%,90%);
+  float: left;
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+}
+
+div.centre{
+width: 100%;
+background-color: hsl(260,5%,95%);
+overflow: hidden;
+}
+
+
+div.header {
+  height: 150px;
+  width: 100%;
+  background-color: hsl(260,5%,90%);
+  background-image: url('HuangshanSunrise.jpg');
+  background-position: top left;
+  text-align: center;
+  float: left;
+}
+
+
+div.left {
+  width: 10%;
+  background: linear-gradient(hsl(278,22%,53%),hsl(260,5%,85%) 8%);
+  float: left;
+  padding-bottom: 9999px;
+  margin-bottom: -9999px;
+}
+
+div.right {
+  width: 10%;
+  background: linear-gradient(hsl(278,22%,53%),hsl(260,10%,85%) 8%);
+  float: right;
+  padding-bottom: 9999px;
+  margin-bottom: -9999px;
+}
+
+div.main {
+  background-color: hsl(260,10%,85%);
+  width: 80%;
+  float: left;
+  {# padding-bottom: 9999px; #}
+  {# margin-bottom: -9999px; #}
+}
+
+div.bottom{
+background-color: hsl(260,10%,85%);
+  width: 100%;
+  height: 400px;
+  float: left;
+  padding-bottom: 9999px;
+  margin-bottom: -9999px;
+}
+
+div.footer {
+  background-color: hsl(260,10%,85%);
+  height: 1000px;
+  width: 100%;
+  float: left;
+}
+
+/* Used in main */
+div#readings{
+text-align: center;
+}
+
+div#sources{
+text-align: center;
+}
+
+div.text{
+margin-left: 10%;
+margin-right: 10%;
+}
+
+/* Used in main and glyph to create tables inside columns */
+  
+.datacolumn{
+    margin-left:10%;
+    margin-right:10%;
+    empty-cells:show;
+    }
+.dataheader{
+    color:red;
+    colspan:2;
+}
+
+
+.dataset{}
+.datavalues{}
+
+/* Visited links do not change colour. */
+  
+a:link{
+    text-decoration: none;
+    color: blue;
+}
+a:visited{
+    color: blue;
+}
+
+a#sitelink{
+    color: hsl(71, 100%, 55%);
+}
+
+/* Headers */
+  
+h1#sitetitle{
+    color: hsl(71, 100%, 55%);
+    position: relative;
+    top: 30px;
+}
+
+h3#sitesubtitle{
+    color: hsl(71, 100%, 55%);
+    position: relative;
+}
+
+h1.text{
+   text-align: center;
+   color: red;
+}
+
+h2.text{
+   text-align: center;
+   color: red;
+}
+
+h3.text{
+   text-align: center;
+   color: red;
+}
+
+/* Used in main.html */
+
+table#readings{
+    background-color: hsl(260,10%,87%);
+    margin:auto; 
+    text-align:left; 
+    }
+
+table#sources{
+    margin-top: 20px;
+    margin:auto;
+    text-align:left;
+    background-color: hsl(260,10%,87%);
+    }
+
+/* Used in glyph.html */
+table#data{
+    background-color: hsl(260,10%,87%);
+    }
+
+table#reconstruction{
+    background-color: hsl(260,10%,87%);
+    }
+
+/* Used to display the source texts */
+table.text{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 30px;
+    }
+
+table.outersyllable{
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 0px;
+    padding-bottom: 30px;
+    table-layout: fixed;
+    }
+
+tr:nth-child(even).outersyllable{
+    width: 100%;
+    border: 0px;
+    padding: 0px;
+    background-color: hsl(260,10%,91%);}
+
+tr:nth-child(odd).outersyllable{
+    border: 0px;
+    padding: 0px;
+    width: 100%;
+    background-color: hsl(260,10%,87%);}
+
+td.outersyllable{border: 0px;
+    }
+
+table.innersyllable{
+    border: 0px;
+    padding: 0px;
+    }
+
+tr.innersyllable{
+    }
+
+td.innersyllable{
+    height: 30px;
+    width: 70px;
+    }
+
+table.outerreading{
+    {# background-color: yellow; #} {# For debugging purposes #}
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 0px;
+    padding-bottom: 30px;
+    table-layout: fixed;
+    }
+
+tr:nth-child(even).outerreading{
+    width: 100%;
+    border: 0px;
+    padding: 00px;
+    background-color: hsl(260,10%,91%);}
+
+tr:nth-child(odd).outerreading{
+    border: 0px;
+    padding: 0px;
+    width: 100%;
+    background-color: hsl(260,10%,87%);}
+
+table.source{
+    border-collapse: collapse;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 0px;
+    padding: 10px;
+    padding-bottom: 30px;
+    table-layout: fixed;
+    }
+
+tr.source{
+    }
+
+td.sourcemargin{
+    padding-left: 20px;
+    background-color: hsl(260,10%,91%);
+    }
+
+td.sourcelabel{
+    padding-left: 10px;
+    background-color: hsl(260,10%,91%);
+    }
+
+td.fanqie{
+    padding-left: 20px;
+    background-color: hsl(260,10%,89%);
+    width: 80px;
+    }
+
+table.sourcetext{
+    background-color: hsl(260,10%,89%);
+    border-collapse: collapse;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    }
+
+tr.sourcetext{
+    padding: 0px;
+    background-color:  hsl(260,10%,89%);
+    }
+
+td.outersourcetext{
+    background-color:  hsl(260,10%,89%);
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+
+td.innersourcetext{
+    }
+
+td.outerreading{border: 0px;
+    }
+
+table.innerreading{
+    {# border: 1px solid red; #} {# For debugging purposes #}
+    padding: 0px;
+    }
+
+tr.innerreading{
+    }
+
+td.innerreading{
+    width: 70px;
+    }
+
+td.readingglyph{
+    background-color: hsl(260,10%,91%);    
+    }
+
+td.mandarin{
+    background-color: hsl(260,10%,91%);    
+    }
+
+td.cantonese{
+    background-color: hsl(260,10%,91%);    
+    }
+
+td.japanese{
+    background-color: hsl(260,10%,91%);    
+    }
+
+td.korean{
+    background-color: hsl(260,10%,91%);    
+    }
+
+td.vietnamese{
+    background-color: hsl(260,10%,91%);    
+    }
+
+td.em{
+    background-color: hsl(260,10%,89%);    
+    }
+
+td.lmc{
+    background-color: hsl(260,10%,87%);
+    }
+
+td.emc{
+    background-color: hsl(260,10%,85%)
+    }
+
+td.mcb{
+    background-color: hsl(260,10%,85%)
+    }
+
+td.mck{
+    background-color: hsl(260,10%,85%)
+    }
+
+td.ocp{
+    background-color: hsl(260,10%,83%)
+    }
+
+td.ocb{
+    background-color: hsl(260,10%,83%)
+    }
+
+td.ock{
+    background-color: hsl(260,10%,83%)
+    }
+
+td.blankreading{
+    background-color: hsl(260,10%,95%);
+    }
+
+th#readings{
+padding-left: 10px;
+padding-right: 10px;
+}
+
+
+th.readingglyph{
+    background-color: hsl(260,10%,91%);    
+    }
+
+th.mandarin{
+    background-color: hsl(260,10%,91%);    
+    }
+
+th.cantonese{
+    background-color: hsl(260,10%,91%);   
+    }
+
+th.japanese{
+    background-color: hsl(260,10%,91%);    
+    }
+
+th.korean{
+    background-color: hsl(260,10%,91%);    
+    }
+
+th.vietnamese{
+    background-color:hsl(260,10%,91%);   
+    }
+
+th.em{
+    background-color: hsl(260,10%,91%);    
+    }
+
+th.lmc{
+    background-color: hsl(260,10%,91%);
+    }
+
+th.emc{
+    background-color: hsl(260,10%,91%);
+    }
+
+th.mcb{
+    background-color: hsl(260,10%,91%);
+    }
+
+th.mck{
+    background-color:hsl(260,10%,91%);
+    }
+
+th.fanqie{
+    background-color: hsl(260,10%,91%);
+    }
+
+th.ocp{
+    background-color: hsl(260,10%,91%);
+    }
+
+th.ocb{
+    background-color:hsl(260,10%,91%);
+    }
+
+th.ock{
+    background-color: hsl(260,10%,91%);
+    }
+
+th.blankreading{
+    background-color: hsl(260,10%,91%);
+    }
+
+/* Used in the page radicallist.html */
+    
+table.radicals{
+    border-collapse: collapse;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 0px;
+    padding: 10px;
+    padding-bottom: 30px;
+    table-layout: fixed;
+    background-color: hsl(260,10%,89%);
+    }
+
+tr.radical{
+    }
+
+td.radical{
+    padding-left: 10px;
+    background-color: hsl(260,10%,91%);
+    }
+
+td.strokenumber{
+    padding-left: 10px;
+    background-color: hsl(260,10%,95%);
+    }

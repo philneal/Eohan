@@ -1,0 +1,187 @@
+.frame{border: 0px;
+      margin: 0px;
+      overflow: hidden;
+      padding: 0px;
+      border-collapse: collapse;
+      }
+
+iframe.topleft{border: 0px;
+      margin: 0px;
+      overflow: hidden;
+      padding: 0px;
+      border-collapse: collapse;
+      width: auto;
+      height: 60px;
+      display: block;
+      seamless;
+      }
+
+
+div.background{margin-left: auto;
+                margin-right: auto;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                width: 100%;
+                }
+
+table.doublepage{margin-left: auto;
+      margin-right: auto;
+      }
+table.leftpage{border: 5px solid black;
+      margin-right: 10px;
+      overflow: hidden;
+      padding: 0px;
+      background-color: white;
+      }
+table.rightpage{border: 5px solid black;
+      margin-left: 10px;
+      overflow: hidden;
+      padding: 0px;
+      background-color: white;
+      }
+
+table.graderow_1{border-left: 0px solid white;
+               border-collapse: collapse;
+               padding: 0px;
+               border-right: 0px solid white;
+               border-collapse: collapse;
+               padding: 0px;
+               border-top: 2px solid black;
+               border-collapse: collapse;
+               padding: 0px;
+               border-bottom: 0px solid white;
+               border-collapse: collapse;
+               padding: 0px;
+               }
+table.graderow_2{border-left: 0px solid white;
+               border-collapse: collapse;
+               padding: 0px;
+               border-right: 0px solid white;
+               border-collapse: collapse;
+               padding: 0px;
+               border-top: 0px solid white;
+               border-collapse: collapse;
+               padding: 0px;
+               border-bottom: 0px solid white;
+               border-collapse: collapse;
+               padding: 0px;
+               }
+table.graderow_3{border-left: 0px solid white;
+               border-collapse: collapse;
+               padding: 0px;
+               border-right: 0px solid white;
+               border-collapse: collapse;
+               padding: 0px;
+               border-top: 0px solid white;
+               border-collapse: collapse;
+               padding: 0px;
+               border-bottom: 0px solid white;
+               border-collapse: collapse;
+               padding: 0px;
+               }
+table.graderow_4{border-left: 0px solid white;
+               border-collapse: collapse;
+               padding: 0px;
+               border-right: 0px solid white;
+               border-collapse: collapse;
+               padding: 0px;
+               border-top: 0px solid white;
+               border-collapse: collapse;
+               padding: 0px;
+               border-bottom: 2px solid black;
+               border-collapse: collapse;
+               padding: 0px;
+               }
+
+
+table.initialborder_23,
+table.initialborder_21,
+table.initialborder_17,
+table.initialborder_12,
+table.initialborder_8,
+table.initialborder_4{border-left: 2px solid black;
+                margin: 0px;
+                overflow: hidden;
+                background-color: white;}
+table.initialborder_13,
+table.initialborder_1{
+                margin: 0px;
+                overflow: hidden;
+                background-color: white;}
+table.initialborder_22,
+table.initialborder_20,
+table.initialborder_19,
+table.initialborder_18,
+table.initialborder_16,
+table.initialborder_15,
+table.initialborder_14,
+table.initialborder_11,
+table.initialborder_10,
+table.initialborder_9,
+table.initialborder_7,
+table.initialborder_6,
+table.initialborder_5,
+table.initialborder_3,
+table.initialborder_2{
+                margin: 0px;
+                overflow: hidden;
+                background-color: white;}
+
+td.charactercell{margin: 0px;
+      overflow: hidden;
+      padding: 0px;
+      border-collapse: collapse;}
+td.charactercellconcordancematch{margin: 0px;
+      border: 2px solid red;
+      overflow: hidden;
+      padding: 0px;
+      border-collapse: collapse;}
+td.readingcellconcordancematch{
+      border: 2px solid red;
+      margin: 0px;
+      max-width: 60px;
+      max-height: 30px;
+      min-width: 60px;
+      min-height: 30px;
+      overflow: hidden;
+      padding: 0px;
+      border-collapse: collapse;}
+td.readingcell{border: 0px;
+      margin: 0px;
+      max-width: 60px;
+      max-height: 30px;
+      min-width: 60px;
+      min-height: 30px;
+      overflow: hidden;
+      padding: 0px;
+      border-collapse: collapse;}
+td.headercell{border: 0px;
+      margin: 0px;
+      max-width: 26px;
+      max-height: 30px;
+      min-width: 26px;
+      min-height: 30px;
+      overflow: hidden;
+      padding: 0px;
+      border-collapse: collapse;
+      background-color: white;}
+td.blankcell{border: 0px;
+      margin: 0px;
+      max-width: 30px;
+      max-height: 30px;
+      min-width: 30px;
+      min-height: 30px;
+      overflow: hidden;
+      padding: 0px;
+      border-collapse: collapse;
+      background-color: white;}
+td.reading{
+      border: 0px;
+      max-width: 60px;
+      max-height: 30px;
+      min-width: 60px;
+      min-height: 30px;
+            padding: 0px;
+
+      white-space: nowrap;
+      }

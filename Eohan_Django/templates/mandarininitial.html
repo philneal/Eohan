@@ -1,0 +1,47 @@
+{% include "top.html" %}
+
+<h2 class="text">Mandarin</h2>
+
+
+{% for dict in mandarininitial %}
+
+{% ifchanged dict.toneless %}
+
+{% ifequal forloop.counter0 0 %}
+<table class="outersyllable">
+ <tr class="outersyllable">
+  <td class="outersyllable">
+    <table class="innersyllable">
+     <tr class="innersyllable">
+      <td class="innersyllable">
+       <a href="../../mandarintoneless/{{ dict.toneless }}">
+        {{ dict.toneless }}
+       </a>
+      </td>
+{% else %}
+
+    </tr>                        {# close inner #}
+   </table>                      {# close inner #}
+  </td>                          {# close outer #}
+ </tr>                           {# close outer #}
+ <tr class="outersyllable">      {# open outer #}
+  <td class="outersyllable">     {# open outer #}
+   <table class="innersyllable"> {# open inner #}
+    <tr class="innersyllable">   {# open inner #}
+      <td class="innersyllable">
+       <a href="../../mandarintoneless/{{ dict.toneless }}">
+        {{ dict.toneless }}
+       </a>
+      </td>
+{% endifequal %}
+{% endifchanged %}
+      <td class="innersyllable">
+       <a href="../../mandarin/{{ dict.pinyin }}">
+        {{ dict.pinyin }}
+       </a>
+      </td>
+{% endfor %}
+
+</tr></table></td></tr></table>
+
+{% include "bottom.html" %}

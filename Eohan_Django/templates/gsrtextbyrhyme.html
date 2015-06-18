@@ -1,0 +1,64 @@
+{% include "top.html" %}
+<h2 class="text">Grammata Serica Recensa</h2>
+
+<table class="outerreading">
+<tr>
+<th class="readingglyph"></th>
+<th class="readingglyph"></th>
+<th class="emc">EMC</h3></th>
+<th class="mcb">MCB</h3></th>
+<th class="ocp">OCP</h3></th>
+<th class="ocb">OCB</h3></th>
+<th class="ocb">OCK</h3></th>
+</tr>
+
+
+{% for line in gsr %}
+
+{% ifchanged line.phoneticlabel %} {# new phonetic #}
+{% ifnotequal forloop.counter0 0 %}
+<tr>
+<td class="blankreading">&nbsp;</td>
+<td class="blankreading">&nbsp;</td>
+<td class="blankreading">&nbsp;</td>
+<td class="blankreading">&nbsp;</td>
+<td class="blankreading">&nbsp;</td>
+<td class="blankreading">&nbsp;</td>
+<td class="blankreading">&nbsp;</td>
+</tr>
+{% endifnotequal %}
+{% endifchanged %}
+
+{% ifchanged line.id %}            {# 1 trap duplicates #}
+<tr>
+
+{% ifchanged line.codepoint %}     {# 2 trap codepoint with multiple readings #}
+
+<td class="readingglyph"><a href="../../glyph/{{ line.codepoint }}">
+{{ line.glyph }}
+</a></td>
+
+{% else %}
+<td class="readingglyph"></td>
+{% endifchanged %}                 {# end trap 2 #}
+
+<td class="readingglyph">{{ line.phoneticlabel }}{{ line.glyphlabel }}</td>           {# phonetic label #}
+<td class="emc">{{ line.emc }}</td>           {# EMC #}
+<td class="mcb">{{ line.mcb }}</td>           {# MCB #}
+<td class="ocp">{{ line.ocp }}</td>           {# OCP #}
+<td class="ocb">{{ line.ocb }}</td>           {# OCB #}
+<td class="ock">{{ line.ock }}</td>           {# OCB #}
+</tr>
+{% else %}
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+{% endifchanged %}                 {# end trap 1 #}
+{% endfor %}
+</table>
+{% include "bottom.html" %}
+

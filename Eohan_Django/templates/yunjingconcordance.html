@@ -1,0 +1,488 @@
+﻿{% include "top.html" %}
+
+<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}yunjing.css"></link>
+<h2 class="text">Yunjing</h2>
+<h2 class="text">韻鏡</h2>
+
+
+          {############################}
+          {#      GLYPH TEXT          #}
+          {############################}
+
+          {#++++++++++++++++++++++++++#}
+          {# Double page block        #}
+          {#++++++++++++++++++++++++++#}
+
+<div class="background">
+<table class="doublepage">
+ <tr>
+
+          {############################}
+          {#     LEFT HAND PAGE       #}
+          {############################}
+
+          {#++++++++++++++++++++++++++#}
+          {# Left hand margin         #}
+          {#++++++++++++++++++++++++++#}
+    
+  <td>
+
+{% for cell in yunjingconcordance.left %}
+
+          {#++++++++++++++++++++++++++#}
+          {# Left hand table          #}
+          {#++++++++++++++++++++++++++#}
+    
+{% if cell.yunjinginitial == 23 %}
+{% if cell.yunjinggrade == 1 %}
+{% if cell.yunjingtone == 1 %}
+   <h3 class="text">{{ cell.rhymelabel }}</h3>
+   <table class="leftpage">
+    <tr class="frame">
+     <td class="frame">
+      <table class="frame">
+{% endif %}
+{% endif %}
+{% endif %}
+
+          {#++++++++++++++++++++++++++#}
+          {# Column labels            #}
+          {#++++++++++++++++++++++++++#}
+
+       {% comment %}
+       {# These are properties of the iframe and cannot be implemented in CSS. #}
+       {# marginheight and marginwidth are deprecated in HTML5 but with no support for alternatives. #}
+
+       <iframe class="topleft" marginheight=0 marginwidth=0 scrolling=no src="../../yunjingheader">
+       </iframe>
+       {% endcomment %}
+
+
+          {#++++++++++++++++++++++++++#}
+          {# Open grade row           #}
+          {#++++++++++++++++++++++++++#}
+
+
+{% if cell.yunjinginitial == 23 %}
+       <tr class="frame">
+        <td class="frame">
+         <table class="graderow_{{ cell.yunjinggrade }}">
+          <tr class="frame">
+{% endif %}
+
+          {#++++++++++++++++++++++++++#}
+          {# Character cell           #}
+          {#++++++++++++++++++++++++++#}
+    
+{% ifequal cell.yunjingid cell.yunjinghomophoneid %}
+           <td class="charactercellconcordancematch">
+{% else %}
+           <td class="charactercell">
+{% endifequal %}
+            <table class="initialborder_{{ cell.yunjinginitial }}">
+             <tr>
+{% ifequal cell.yunjingcodepoint 'U+3007' %}
+              <td>
+              {{ cell.yunjingglyph }}
+              </td>
+{% else %}
+              <td>
+               <a href="../../glyph/{{ cell.yunjingcodepoint }}">
+                {{ cell.yunjingglyph }}
+               </a>
+              </td>
+{% endifequal %}
+             </tr>
+            </table>
+           </td>
+
+          {#++++++++++++++++++++++++++#}
+          {# Close grade row          #}
+          {#++++++++++++++++++++++++++#}
+    
+{% if cell.yunjinginitial == 13 %}
+          </tr>
+         </table>
+        </td>
+       </tr>
+{% endif %}
+
+          {#++++++++++++++++++++++++++#}
+          {# Close left hand page     #}
+          {#++++++++++++++++++++++++++#}
+    
+{% if cell.yunjinginitial == 13 %}
+{% if cell.yunjinggrade == 4 %}
+{% if cell.yunjingtone == 4 %}
+
+      </table>
+     </td>
+    </tr>
+   </table>
+
+{% endif %}
+{% endif %}
+{% endif %}
+
+{% endfor %}
+
+          {#++++++++++++++++++++++++++#}
+          {# Close left hand margin   #}
+          {#++++++++++++++++++++++++++#}
+    
+  </td>
+
+          {#++++++++++++++++++++++++++#}
+          {#     RIGHT HAND PAGE      #}
+          {#++++++++++++++++++++++++++#}
+
+          {#++++++++++++++++++++++++++#}
+          {# Right hand margin        #}
+          {#++++++++++++++++++++++++++#}
+    
+  <td>
+
+{% for cell in yunjingconcordance.right %}
+
+          {#++++++++++++++++++++++++++#}
+          {# Right hand page          #}
+          {#++++++++++++++++++++++++++#}
+    
+{% if cell.yunjinginitial == 12 %}
+{% if cell.yunjinggrade == 1 %}
+{% if cell.yunjingtone == 1 %}
+   <h3 class="text">&nbsp;</h3>
+
+   <table class="rightpage">
+    <tr class="frame">
+     <td class="frame">
+      <table class="frame">
+
+{% endif %}
+{% endif %}
+{% endif %}
+          {#++++++++++++++++++++++++++#}
+          {# Open grade row           #}
+          {#++++++++++++++++++++++++++#}
+    
+{% if cell.yunjinginitial == 12 %}
+       <tr class="frame">
+        <td class="frame">
+         <table class="graderow_{{ cell.yunjinggrade }}">
+          <tr class="frame">
+{% endif %}
+
+          {#++++++++++++++++++++++++++#}
+          {# Character cell           #}
+          {#++++++++++++++++++++++++++#}
+    
+{% ifequal cell.yunjingid cell.yunjinghomophoneid %}
+           <td class="charactercellconcordancematch">
+{% else %}
+           <td class="charactercell">
+{% endifequal %}
+            <table class="initialborder_{{ cell.yunjinginitial }}">
+             <tr>
+{% ifequal cell.yunjingcodepoint 'U+3007' %}
+              <td>{{ cell.yunjingglyph }}</td>
+{% else %}
+              <td><a href="../../glyph/{{ cell.yunjingcodepoint }}">{{ cell.yunjingglyph }}</a></td>
+{% endifequal %}
+             </tr>
+            </table>
+           </td>
+
+          {#++++++++++++++++++++++++++#}
+          {# Close grade row          #}
+          {#++++++++++++++++++++++++++#}
+    
+{% if cell.yunjinginitial == 1 %}
+          </tr>
+         </table>
+        </td>
+       </tr>
+{% endif %}
+
+          {#++++++++++++++++++++++++++#}
+          {# Close right hand page    #}
+          {#++++++++++++++++++++++++++#}
+    
+{% if cell.yunjinginitial == 1 %}
+{% if cell.yunjinggrade == 4 %}
+{% if cell.yunjingtone == 4 %}
+
+      </table>
+     </td>
+    </tr>
+   </table>
+
+{% endif %}
+{% endif %}
+{% endif %}
+
+{% endfor %}
+
+          {#++++++++++++++++++++++++++#}
+          {# Close right hand margin  #}
+          {#++++++++++++++++++++++++++#}
+    
+  </td>
+
+          {#++++++++++++++++++++++++++#}
+          {# Close double page        #}
+          {#++++++++++++++++++++++++++#}
+    
+ </tr>
+</table>
+
+          {#++++++++++++++++++++++++++#}
+          {# Close double page block  #}
+          {#++++++++++++++++++++++++++#}
+    
+</div>
+
+          {############################}
+          {#     READINGS KEY         #}
+          {############################}
+
+          {############################}
+          {#     LEFT HAND KEY        #}
+          {############################}
+
+
+          {#++++++++++++++++++++++++++#}
+          {# *** "double" page - now single page #}
+          {#++++++++++++++++++++++++++#}
+    
+<div class="background">
+
+<table class="doublepage">
+ <tr>
+
+          {#++++++++++++++++++++++++++#}
+          {# Left hand margin         #}
+          {#++++++++++++++++++++++++++#}
+  <td>
+    
+
+          {#++++++++++++++++++++++++++#}
+          {# Left hand page           #}
+          {#++++++++++++++++++++++++++#}
+    
+
+{% for cell in yunjingconcordance.left %}
+{% if cell.yunjinginitial == 23 %}
+{% if cell.yunjinggrade == 1 %}
+{% if cell.yunjingtone == 1 %}
+
+   <table class="leftpage">
+    <tr class="frame">
+     <td class="frame">
+      <table class="frame">
+
+{% endif %}
+{% endif %}
+{% endif %}
+
+          {#++++++++++++++++++++++++++#}
+          {# Open grade row           #}
+          {#++++++++++++++++++++++++++#}
+    
+{% if cell.yunjinginitial == 23 %}
+       <tr class="frame">
+        <td class="frame">
+         <table class="graderow_{{ cell.yunjinggrade }}">
+          <tr class="frame">
+{% endif %}
+
+          {#++++++++++++++++++++++++++#}
+          {# Character cell           #}
+          {#++++++++++++++++++++++++++#}
+    
+{% ifequal cell.yunjingid cell.yunjinghomophoneid %}
+           <td class="readingcellconcordancematch">
+{% else %}
+           <td class="readingcell">
+{% endifequal %}
+            <table class="initialborder_{{ cell.yunjinginitial }}">
+             <tr>
+{% if cell.lmc = '' %}
+              <td class="reading">&#x3007;</td>
+{% else %}
+              <td class="reading">{{ cell.lmc }}</td>
+{% endif %}
+           </tr>
+            </table>
+           </td>
+
+          {#++++++++++++++++++++++++++#}
+          {# Close grade row          #}
+          {#++++++++++++++++++++++++++#}
+    
+{% if cell.yunjinginitial == 13 %}
+          </tr>
+         </table>
+        </td>
+       </tr>
+{% endif %}
+
+          {#++++++++++++++++++++++++++#}
+          {# Close left hand page     #}
+          {#++++++++++++++++++++++++++#}
+    
+{% if cell.yunjinginitial == 13 %}
+{% if cell.yunjinggrade == 4 %}
+{% if cell.yunjingtone == 4 %}
+
+      </table>
+     </td>
+    </tr>
+   </table>
+
+{% endif %}
+{% endif %}
+{% endif %}
+
+{% endfor %}
+
+
+          {#++++++++++++++++++++++++++#}
+          {# Close left hand margin   #}
+          {#++++++++++++++++++++++++++#}
+    
+  </td>
+
+          {#++++++++++++++++++++++++++#}
+          {# Close "double" page      #}
+          {#++++++++++++++++++++++++++#}
+    
+ </tr>
+</table>
+  
+          {#++++++++++++++++++++++++++#}
+          {# Close "double" page block#}
+          {#++++++++++++++++++++++++++#}
+    
+</div>
+
+          {############################}
+          {#     RIGHT HAND KEY       #}
+          {############################}
+
+
+          {#++++++++++++++++++++++++++#}
+          {#*** "double" page - now single page #}
+          {#++++++++++++++++++++++++++#}
+    
+<div class="background">
+
+<table class="doublepage">
+ <tr>
+
+          {#++++++++++++++++++++++++++#}
+          {# Right hand margin        #}
+          {#++++++++++++++++++++++++++#}
+  <td>
+    
+          {#++++++++++++++++++++++++++#}
+          {# Right hand page          #}
+          {#++++++++++++++++++++++++++#}
+    
+{% for cell in yunjingconcordance.right %}
+
+{% if cell.yunjinginitial == 12 %}
+{% if cell.yunjinggrade == 1 %}
+{% if cell.yunjingtone == 1 %}
+
+   <table class="rightpage">
+    <tr class="frame">
+     <td class="frame">
+      <table class="frame">
+
+{% endif %}
+{% endif %}
+{% endif %}
+
+
+          {#++++++++++++++++++++++++++#}
+          {# Open grade row           #}
+          {#++++++++++++++++++++++++++#}
+    
+{% if cell.yunjinginitial == 12 %}
+       <tr class="frame">
+        <td class="frame">
+         <table class="graderow_{{ cell.yunjinggrade }}">
+          <tr class="frame">
+{% endif %}
+
+          {#++++++++++++++++++++++++++#}
+          {# Character cell           #}
+          {#++++++++++++++++++++++++++#}
+    
+{% ifequal cell.yunjingid cell.yunjinghomophoneid %}
+           <td class="readingcellconcordancematch">
+{% else %}
+           <td class="readingcell">
+{% endifequal %}
+            <table class="initialborder_{{ cell.yunjinginitial }}">
+             <tr>
+{% if cell.lmc = '' %}
+              <td class="reading">&#x3007;<td>
+{% else %}
+              <td class="reading">{{ cell.lmc }}</td>
+{% endif %}
+           </tr>
+            </table>
+           </td>
+
+          {#++++++++++++++++++++++++++#}
+          {# Close grade row          #}
+          {#++++++++++++++++++++++++++#}
+    
+{% if cell.yunjinginitial == 1 %}
+          </tr>
+         </table>
+        </td>
+       </tr>
+{% endif %}
+
+
+          {#++++++++++++++++++++++++++#}
+          {# Close right hand page    #}
+          {#++++++++++++++++++++++++++#}
+    
+{% if cell.yunjinginitial == 1 %}
+{% if cell.yunjinggrade == 4 %}
+{% if cell.yunjingtone == 4 %}
+
+      </table>
+     </td>
+    </tr>
+   </table>
+{% endif %}
+{% endif %}
+{% endif %}
+
+{% endfor %}
+
+          {#++++++++++++++++++++++++++#}
+          {# Close right hand margin  #}
+          {#++++++++++++++++++++++++++#}
+    
+  </td>
+
+          {#++++++++++++++++++++++++++#}
+          {# Close "double" page      #}
+          {#++++++++++++++++++++++++++#}
+    
+ </tr>
+</table>
+
+          {#++++++++++++++++++++++++++#}
+          {# Close "double" page block #}
+          {#++++++++++++++++++++++++++#}
+    
+</div>
+
+{% include "bottom.html" %}
+

@@ -1,0 +1,40 @@
+﻿k	k
+k‘	k‘
+g‘	g‘
+ng	ng
+χ	χ
+ɣ	g‘
+tˆ	t
+tˆ‘	t‘
+dˆ‘	d‘
+ń	n
+j	g
+ś	s
+ź	dˆ‘
+tś	tˆ
+tś‘	tˆ‘
+dź‘	dˆ‘
+ńź	ń
+t	t
+t‘	t‘
+d‘	d‘
+n	n
+l	l
+s	s
+z	z
+ts	ts
+ts‘	ts‘
+dz‘	dz‘
+ṣ	ṣ	s
+tṣ	tṣ	ts
+tṣ‘	tṣ‘	ts‘
+dẓ‘	dẓ‘	dz‘
+p	p
+p‘	p‘
+b‘	b‘
+m	m
+ˑ	ˑ
+_	d
+i̯u	d	ˑ
+i̯	z
+-	-

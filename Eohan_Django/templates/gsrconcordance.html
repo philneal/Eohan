@@ -1,0 +1,25 @@
+{% include "top.html" %}
+<h2 class="text">Grammata Serica Recensa</h2>
+<h3 class="text">{{ gsrconcordance.0.phoneticlabel }}</h3>
+
+<table class="source">
+{% for line in gsrconcordance %}
+{% ifchanged line.codepoint %}
+ <tr>
+  <td class="sourcemargin">
+  {{ line.phoneticlabel }}{{ line.glyphlabel }}
+  </td>           {# phonetic label #}
+  <td class="outersourcetext">
+   <a href="../../glyph/{{ line.codepoint }}">
+   {{ line.glyph }}
+   </a>
+  </td>
+ </tr>
+
+{% endifchanged %}
+{% endfor %}
+</table>
+
+
+ </table>
+{% include "bottom.html" %}

@@ -1,0 +1,79 @@
+{% include "top.html" %}
+
+<h2 class="text" id="glyphheader" align=center>Cantonese</h2>
+
+<table class="outerreading">
+ <tr>
+  <th class="readingglyph"></th>
+  <th class="cantonese">Cant</th>
+  <th class="lmc">LMC</th>
+  <th class="emc">EMC</th>
+  <th class="mcb">MCB</th>
+  <th class="mck">MCK</th>
+  <th class="ocp">OCP</th>
+  <th class="ocb">OCB</th>
+ </tr>
+ 
+{% for  codepoint, dict in cantonese.items %}
+ <tr>
+  <td class="readingglyph">
+   <a href="../../glyph/{{ codepoint}}/">
+    {{ dict.glyph }}
+   </a>
+  </td>
+  
+  <td class="cantonese">{{ dict.cantonese }}</td>
+
+  <td class="lmc">
+   <table class="innerreading">
+    {% for reading in dict.lmc %}
+     <tr><td>{{ reading|cut:"None" }}</td></tr>
+    {% endfor %}
+    </table>
+  </td>
+
+  <td class="emc">
+   <table class="innerreading">
+    {% for reading in dict.emc %}
+     <tr><td>{{ reading|cut:"None" }}</td></tr>
+    {% endfor %}
+   </table>
+  </td>
+
+  <td class="mcb">
+   <table class="innerreading">
+    {% for reading in dict.mcb %}
+     <tr><td>{{ reading|cut:"None" }}</td></tr>
+    {% endfor %}
+   </table>
+  </td>
+
+  <td class="mck">
+   <table class="innerreading">
+    {% for reading in dict.mck %}
+     <tr><td>{{ reading|cut:"None" }}</td></tr>
+    {% endfor %}
+   </table>
+  </td>
+
+  <td class="ocp">
+   <table>
+    {% for reading in dict.ocp %}
+     <tr><td>{{ reading|cut:"None" }}</td></tr>
+    {% endfor %}
+   </table>
+  </td>
+
+  <td class="ocb">
+   <table class="innerreading">
+    {% for reading in dict.ocb %}
+     <tr><td>{{ reading|cut:"None" }}</td></tr>
+    {% endfor %}
+   </table>
+  </td>
+
+ </tr>
+{% endfor %}
+</table>
+
+{% include "bottom.html" %}

@@ -1,0 +1,94 @@
+﻿{% include "top.html" %}
+<h2 class="text">Guangyun</h2>
+<h2 class="text">廣韻</h2>
+<h3 class="text">
+{{ guangyuntextbyfinal.0.finalglyph }}
+&nbsp;&nbsp;&nbsp;
+{{ guangyuntextbyfinal.0.sectionlabel }}
+&nbsp;
+{{ guangyuntextbyfinal.0.tongyong }}
+</h3>
+
+<table class="source">
+ <tr class="source">
+ <th class="emc">
+ EMC
+ </th>
+ <th class="mcb">
+ MCB
+ </th>
+ <th class="mck">
+ MCK
+ </th>
+ <th class="fanqie">
+ Fanqie
+ </th>
+ <th class="fanqie">
+ </th>
+ </tr>
+ <tr class="source">
+  <td class="sourcemargin">
+  </td>
+  <td class="sourcelabel">
+  </td>
+  <td class="sourcelabel">
+  </td>
+  <td class="fanqie">
+  </td>
+  <td class="outersourcetext">
+   <table class="sourcetext">
+    <tr class="sourcetext">
+     <td class="innersourcetext">
+
+{% for line in guangyuntextbyfinal  %}                         
+
+{% ifchanged line.homophoneid %}                               {# new homophone #}
+     </td>
+    </table>
+   </tr>
+  </td>
+ </tr>
+ <tr class="source">
+  <td class="sourcemargin">
+  {{ line.emc }}
+  </td>
+  <td class="sourcelabel">
+  {{ line.mcb }}
+  </td>
+  <td class="sourcelabel">
+  {{ line.mck }}
+  </td>
+  <td class="fanqie">
+   <a href="../glyph/{{line.codepoint}}">
+   {{ line.glyph }}
+   </a>
+   <a href="../glyph/{{line.initialfanqiecodepoint}}">
+   {{ line.initialfanqieglyph }}
+   </a>
+   <a href="../glyph/{{line.finalfanqiecodepoint}}">
+   {{ line.finalfanqieglyph }}
+   </a>
+  </td>
+  <td class="outersourcetext">
+   <table class="sourcetext">
+    <tr class="sourcetext">
+      <td class="innersourcetext">
+     
+
+{% endifchanged %}
+
+     <a id={{ line.codepoint }}>
+     </a>
+     <a href="../../glyph/{{ line.codepoint }}">
+     {{ line.glyph }}
+     </a>
+
+{% endfor %}
+
+    </tr>
+   </table>
+  </td>
+ </tr>
+</table>
+
+{% include "bottom.html" %}

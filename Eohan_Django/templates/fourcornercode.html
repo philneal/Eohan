@@ -1,0 +1,52 @@
+{% include "top.html" %}
+<h2 class="text">Four Corner Code</h2>
+<h3 class="text">{{ fourcornercode.0.nwcorner}}
+{{ fourcornercode.0.necorner}}
+{{ fourcornercode.0.swcorner}}
+{{ fourcornercode.0.secorner}}
+.
+{{ fourcornercode.0.esecorner }}
+</h3>
+<h3 class="text">Exact match</h3>
+<table class="source">
+<tr class="source"><td class="innersourcetext">
+{% for item in fourcornercode %}
+{% ifequal item.direction '0' %}
+<a href="../../glyph/{{ item.codepoint }}">{{ item.glyph }}&nbsp;</a>
+{% endifequal %}
+{% endfor %}
+</td></tr><tr><td class="innersourcetext">&nbsp;</td></tr>
+</table>
+<h3 class="text">Near match</h3>
+<table class="source">
+<tr class="source"><td class="innersourcetext">
+{% for item in fourcornercode %}
+{% ifequal item.direction '1' %}
+<a href="../../glyph/{{ item.codepoint }}">{{ item.glyph }}&nbsp;</a>
+{% endifequal %}
+{% endfor %}
+</td></tr><tr><td class="innersourcetext">&nbsp;</td></tr>
+<tr class="source"><td class="innersourcetext">
+{% for item in fourcornercode %}
+{% ifequal item.direction '2' %}
+<a href="../../glyph/{{ item.codepoint }}">{{ item.glyph }}&nbsp;</a>
+{% endifequal %}
+{% endfor %}
+</td></tr><tr><td class="innersourcetext">&nbsp;</td></tr>
+<tr class="source"><td class="innersourcetext">
+{% for item in fourcornercode %}
+{% ifequal item.direction '3' %}
+<a href="../../glyph/{{ item.codepoint }}">{{ item.glyph }}&nbsp;</a>
+{% endifequal %}
+{% endfor %}
+</td></tr><tr><td class="innersourcetext">&nbsp;</td></tr>
+<tr class="source"><td class="innersourcetext">
+{% for item in fourcornercode %}
+{% ifequal item.direction '4' %}
+<a href="../../glyph/{{ item.codepoint }}">{{ item.glyph }}&nbsp;</a>
+{% endifequal %}
+{% endfor %}
+</td></tr><tr><td class="innersourcetext">&nbsp;</td></tr>
+</table>
+
+{% include "bottom.html" %}

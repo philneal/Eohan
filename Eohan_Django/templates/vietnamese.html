@@ -1,0 +1,60 @@
+{% include "top.html" %}
+<h2 class="text" id="glyphheader" align=center>Vietnamese</h2>
+
+<table class="outerreading">
+ <tr>
+  <th class="readingglyph"></th>
+  <th class="vietnamese">Viet</th>
+  <th class="lmc">LMC</th>
+  <th class="emc">EMC</th>
+  <th class="mcb">MCB</th>
+  <th class="mck">MCK</th>
+ </tr>
+ 
+{% for  codepoint, dict in vietnamese.items %}
+ <tr>
+  <td class="readingglyph">
+   <a href="../../glyph/{{ codepoint}}/">
+    {{ dict.glyph }}
+   </a>
+  </td>
+  
+  <td class="vietnamese">{{ dict.vietnamese }}</td>
+
+  <td class="lmc">
+   <table class="innerreading">
+    {% for reading in dict.lmc %}
+     <tr><td>{{ reading|cut:"None" }}</td></tr>
+    {% endfor %}
+    </table>
+  </td>
+
+  <td class="emc">
+   <table class="innerreading">
+    {% for reading in dict.emc %}
+     <tr><td>{{ reading|cut:"None" }}</td></tr>
+    {% endfor %}
+   </table>
+  </td>
+
+  <td class="mcb">
+   <table class="innerreading">
+    {% for reading in dict.mcb %}
+     <tr><td>{{ reading|cut:"None" }}</td></tr>
+    {% endfor %}
+   </table>
+  </td>
+
+  <td class="mck">
+   <table class="innerreading">
+    {% for reading in dict.mck %}
+     <tr><td>{{ reading|cut:"None" }}</td></tr>
+    {% endfor %}
+   </table>
+  </td>
+
+ </tr>
+{% endfor %}
+</table>
+
+{% include "bottom.html" %}

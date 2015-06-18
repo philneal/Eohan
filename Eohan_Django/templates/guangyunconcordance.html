@@ -1,0 +1,94 @@
+﻿{% include "top.html" %}
+<h2 class="text">Guangyun</h2>
+<h2 class="text">廣韻</h2>
+
+<table class="source">
+ <tr class="source">
+  <td class="outersourcetext">
+   <table class="outersourcetext">
+    <tr>
+     <td class="sourcemargin">
+     </td>
+     <td class="sourcelabel">
+     </td>
+     <td class="sourcelabel">
+     </td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="source">
+  <td class="outersourcetext">
+   <table class="outersourcetext">
+    <tr>
+     <td class="outersourcetext">
+      <table class="sourcetext">
+       <tr class="sourcetext">
+        <td class="innersourcetext">
+{% for line in guangyunconcordance  %}
+{% ifchanged line.homophone %}
+        </td>
+       </tr>
+      </table>
+     </td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="source">
+  <td class="outersourcetext">
+   <table class="outersourcetext">
+    <tr>
+     <td class="sourcemargin">
+      <a href= "../guangyuntextbyfinal/{{ line.finalnumber }}">
+      {{ line.finalnumber }}
+      </a>
+     </td>
+     <td class="sourcelabel">
+     {{ line.finalglyph }}
+     </td>
+     <td class="sourcelabel">
+     {{ line.sectionlabel }}
+     </td>
+     <td class="sourcelabel">
+     {{ line.tongyong }}
+     </td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="source">
+  <td class="outersourcetext">
+   <table class="outersourcetext">
+    <tr>
+     <td class="sourcemargin">
+     {{ line.homophonenumber}}
+     </td>
+     <td class="sourcelabel">
+     {{ line.glyph }}{{ line.initialfanqie }}{{ line.finalfanqie }}
+     </td>
+     <td class="outersourcetext">
+      <table class="sourcetext">
+       <tr class="sourcetext">
+        <td class="innersourcetext">
+         <a href="../../glyph/{{line.codepoint}}">
+         {{ line.glyph }}
+         </a>
+{% else %}
+         <a href="../../glyph/{{line.codepoint}}">
+         {{ line.glyph }}
+         </a>
+{% endifchanged %}
+{% endfor %}
+        </td>
+       </tr>
+      </table>
+     </td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+</table>
+
+{% include "bottom.html" %}
+

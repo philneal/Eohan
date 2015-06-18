@@ -1,0 +1,70 @@
+﻿{% include "top.html" %}
+<h2 class="text">Zhongyuan Yinyun</h2>
+<h2 class="text">中原音韻</h2>
+<h3 class="text">{{ zhongyuanyinyuntextbyrhyme.0.rhymelabel }}</h3>
+
+<table class="source">
+ <tr class="source">
+  <td class="sourcemargin">
+  </td>
+  <td class="outersourcetext">
+   <table class="sourcetext">
+    <tr class="sourcetext">
+
+{% for line in zhongyuanyinyuntextbyrhyme  %}                         {# new final #}
+
+{% ifchanged line.finallabel %}
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="source">
+  <td class="sourcemargin">
+  </td>
+  <td class="outersourcetext">
+   <table class="sourcetext">
+    <tr class="sourcetext">
+      <td class="innersourcetext">
+      <h3>
+      {{ line.finallabel }}
+      </h3>
+     </td>
+{% endifchanged %}
+
+{% ifchanged line.earlymandarin %}                          {# early mandarin #}
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="source">
+  <td class="sourcemargin">
+  {{ line.earlymandarin }}
+  </td>
+  <td class="outersourcetext">
+   <table class="sourcetext">
+    <tr class="sourcetext">
+{% endifchanged %}
+
+     <a id={{ line.codepoint }}>
+     </a>
+     <td class="innersourcetext">
+     <a href="../../glyph/{{ line.codepoint }}">
+     {{ line.glyph }}
+     </a>
+     </td>
+
+{% ifnotequal line.annotation '' %}                         {# annotation #}
+     <td class="innersourcetext">
+     [{{ line.annotation }}]
+     </td>
+{% endifnotequal %}
+
+{% endfor %}
+
+    </tr>
+   </table>
+  </td>
+ </tr>
+</table>
+
+{% include "bottom.html" %}

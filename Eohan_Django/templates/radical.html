@@ -1,0 +1,29 @@
+{% include "top.html" %}
+
+
+<h2 class="text">Radical and Strokes</h2>
+
+<table class="source">
+ <tr class="source">
+{% for item in radical %}
+{% ifchanged item.strokecount %}
+  </td>
+ </tr>
+ <tr>
+  <td class="sourcemargin">
+  &nbsp;
+  </td>
+ </tr>
+ <tr>
+  <td class="sourcemargin">
+  {{ item.strokecount }}
+  <td class="innersourcetext">
+{% endifchanged %}
+  <a href="../../glyph/{{ item.codepoint }}">
+  {{ item.glyph }}&nbsp;
+  </a>
+{% endfor %}
+  </td>
+ </tr>
+</table>
+{% include "bottom.html" %}

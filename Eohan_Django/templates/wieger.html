@@ -1,0 +1,101 @@
+{% include "top.html" %}
+<h2 class="text">Wieger</h2>
+
+<table class="outerreading">
+<tr>
+<th class="readingglyph"></th>
+<th class="mandarin">Mand</th>
+<th class="em">EM</th>
+<th class="cantonese">Cant</th>
+<th class="lmc">LMC</th>
+<th class="emc">EMC</th>
+<th class="mcb">MCB</th>
+<th class="mck">MCK</th>
+<th class="ocp">OCP</th>
+<th class="ocb">OCB</th></tr>
+
+{% for dict in wieger %}
+<tr>
+<td class="readingglyph">
+<a href="../../glyph/{{ dict.codepoint}}/">
+{{ dict.glyph }}
+</a>
+</td>
+
+<td class="mandarin">
+<table class="innerreading">
+{% for reading in dict.mandarin %}
+<tr><td>{{ reading|cut:"None" }}</td></tr>
+{% endfor %}
+</table>
+</td>
+
+<td class="em">
+<table class="innerreading">
+{% for reading in dict.em %}
+<tr><td>{{ reading|cut:"None" }}</td></tr>
+{% endfor %}
+</table>
+</td>
+
+<td class="cantonese">
+<table class="innerreading">
+{% for reading in dict.cantonese %}
+<tr><td>{{ reading|cut:"None" }}</td></tr>
+{% endfor %}
+</table>
+</td>
+
+<td class="lmc">
+<table class="innerreading">
+{% for reading in dict.lmc %}
+<tr><td>{{ reading|cut:"None" }}</td></tr>
+{% endfor %}
+</table>
+</td>
+
+<td class="emc">
+<table class="innerreading">
+{% for reading in dict.emc %}
+<tr><td>{{ reading|cut:"None" }}</td></tr>
+{% endfor %}
+</table>
+</td>
+
+<td class="mcb">
+<table class="innerreading">
+{% for reading in dict.mcb %}
+<tr><td>{{ reading|cut:"None" }}</td></tr>
+{% endfor %}
+</table>
+</td>
+
+<td class="mck">
+<table class="innerreading">
+{% for reading in dict.mck %}
+<tr><td>{{ reading|cut:"None" }}</td></tr>
+{% endfor %}
+</table>
+</td>
+
+<td class="ocp">
+<table class="innerreading">
+{% for reading in dict.ocp %}
+<tr><td>{{ reading|cut:"None" }}</td></tr>
+{% endfor %}
+</table>
+</td>
+
+<td class="ocb">
+<table class="innerreading">
+{% for reading in dict.ocb %}
+<tr><td>{{ reading|cut:"None" }}</td></tr>
+{% endfor %}
+</table>
+</td>
+
+{% endfor %}
+
+</table>
+
+{% include "bottom.html" %}

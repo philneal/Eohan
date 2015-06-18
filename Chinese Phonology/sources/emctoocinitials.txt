@@ -1,0 +1,96 @@
+﻿#		á	ə́	à	ə̀
+					
+p	p	p	p	p	p
+b	p	ăp	ăp	ăp	ăp
+p‘	p	p-p	p-p	p-p	p-p
+t	t	t	t		
+tɕ	t			t	t
+d	t	ăt	ăt		
+dʑ	t			ăt	ăt
+t‘	t	t-t	t-t		
+tɕ‘	t			t-t	t-t
+tr	t	tr	tr	tr	tr
+dr	t	ătr	ătr	ătr	ătr
+tr‘	t	t-tr	t-tr	t-tr	t-tr
+k	k	k	k		
+tɕ	k			k	k
+g	k	ăk	ăk		
+dʑ	k			ăk	ăk
+d	k	ăk	ăk		
+k‘	k	k-k	k-k		
+tɕ‘	k			k-k	k-k
+ɣ	k	ăk	ăk		
+t	k	kj	kj		
+d	k			ăkj	ăkj
+t‘	k	k-kj	k-kj		
+ts	kj	kj	kj	kj	kj
+dz	kj	ăkj	ăkj	ăkj	ăkj
+ts‘	kj	k-kj	k-kj	k-kj	k-kj
+tʂ	kj	kjr	kjr	kjr	kjr
+dʐ	kj	ăkjr	ăkjr	ăkjr	ăkjr
+tʂ‘	kj	k-kjr	k-kjr	k-kjr	k-kjr
+k	kw	kw		kw	
+kw	kw		kw		kw
+ɣ	kw	ăkw		ăkw	
+ɣw	kw		ăkw		ăkw
+k‘	kw	k-kw		k-kw	
+k‘w	kw		k-kw		k-kw
+kw	kɥ	kɥ	kɥ	kɥ	
+kjw	kɥ				kɥ
+gw	kɥ	ăkɥ	ăkɥ	ăkɥ	
+gwj	kɥ				ăkɥ
+k‘	kɥ	k-kɥ	k-kɥ	k-kɥ	
+k‘j	kɥ				k-kɥ
+s	s	s	s	s	s
+z	s	ăs	ăs	ăs	ăs
+ʂ	s	sr	sr	sr	sr
+ʐ	s	ăsr	ăsr	ăsr	ăsr
+ts‘	s	s-s	s-s	s-s	s-s
+x	x	x	x	x	x
+k	x	x	x	x	x
+k‘	x	x	x	x	x
+ŋ	x	ăx	ăx	ăx	ăx
+ɕ	x	xj	xj	xj	xj
+x	xj	xj		xj	
+th	xj		xj		
+ɕ	xj				xj
+d	xj	ăxj	ăxj		
+j	xj			ăxj	ăxj
+x	xw	xw		xw	
+xw	xw		xw		xw
+k‘w	xw	xw-xw	xw-xw	xw-xw	xw-xw
+tr	xw	xwr	xwr	xwr	xwr
+xw	xɥ	xɥ	xɥ	xɥ	xɥ
+sw	xɥ			xɥ	xɥ
+m	m	m	m	m	m
+x	m	mx	mx	mx	mx
+n	n	n	n		
+ɲ	n			n	n
+nr	n	nr	nr	nr	nr
+ŋ	ŋ	ŋ	ŋ	ŋ	ŋ
+d	ŋj	ŋj	ŋj		
+j	ŋj			ŋj	ŋj
+n	ŋj	ŋj	ŋj		
+ɲ	ŋj			ŋj	ŋj
+m	ŋw	ŋw	ŋw	ŋw	ŋw
+ŋ	ŋw	ŋw	ŋw	ŋw	ŋw
+m	ŋɥ	ŋɥ	ŋɥ		
+l	ŋɥ			ŋɥ	ŋɥ
+d	l	l	l		
+ʑ	l			l	l
+dʑ	l	l	l		
+j	l	l	l		
+k	ɣ	ɣ	ɣ	ɣ	ɣ
+j	ɣ			ɣ	ɣ
+k‘	ɣ	ɣ-ɣ	ɣ-ɣ		
+z	ɣ			ɣ-ɣ	ɣ-ɣ
+ʔj	j	j	j	j	j
+ɣw	w	w			
+ɣ	w		w		
+w	w			w	
+g	w				w
+d	ɥ	ɥ	ɥ		
+j	ɥ			ɥ	ɥ
+l	ɥ			ɥ	ɥ
+ʔ	ʔ	ʔ	ʔ	ʔ	ʔ
+l	Cr	Cr	Cr	Cr	Cr

@@ -1,0 +1,33 @@
+﻿1	31	IV ii yin	al	aj	â	âr
+32	106	VIII yin	aɣ	a	âg	o
+107	107	VII yin	ǝɣ	ɨ	ǝg	
+108	138	X yin	aɥ	o	ug	u
+139	266	IV i yang	an	an	ân
+267	348	IV i ru	at	at	ât	
+349	360	IV ii yin	al	aj	â	âr
+361	392	V yang	ǝŋj	in	ien	
+393	415	V ru	ǝkj	it	iet	
+416	485	III yang	ǝn	ɨn	ǝn	
+486	540	III ru	ǝt	ɨt	ǝt	
+541	605	III yin	ǝl	ɨj	ǝr	
+606	627	II yang	am	am	âm	
+628	642	II ru	ap	ap	âp	
+643	674	I yang	ǝm	ɨm	ǝm	
+675	696	I ru	ǝp	ɨp	ǝp	
+697	765	VIII yang	aŋ	ang	âng	
+766	807	VIII ru	ak	ak	âk	
+808	843	VI yang	aŋj	eng	ieng	
+844	860	VI ru	akj	et	iek	
+861	880	VI yin	aj	e	ieg	
+881	902	VII yang	ǝŋ	ɨng	ǝng
+903	935	VII ru	ǝk	ɨk	ǝk	
+936	1001	VII yin	ǝɣ	ɨ	ǝg	
+1002	1015	IX yang	ǝŋw	ung	ông	
+1016	1039	IX ru	ǝkw	uk	ôk	
+1040	1116	IX yin	ǝw	u	ôg	
+1117	1128	XI ru	akw	awk	ok	
+1129	1171	XI yin	aw	aw	og	
+1172	1201	X yang	aŋɥ	ong	ung	
+1202	1228	X ru	akɥ	ok	uk	
+1229	1235	X yin	aɥ	o	ug	u
+1236	1261	-	-	-	-	-

@@ -1,0 +1,46 @@
+﻿{% include "top.html" %}
+<h2 class="text">Shijing</h2>
+<h2 class="text">詩經</h2>
+
+<table class="source">                         {# main table #}
+
+{% for line in  shijingconcordance %}
+
+ <tr>
+  <td class="sourcemargin">
+  {{ line.odenumber }}
+  .
+  {{ line.stanzanumber }}
+  </td>
+  <td class="outersourcetext">
+  {{ line.odetitle }}
+  </td> 
+  <td class="outersourcetext">
+{% for glyph in line.glyphs %}
+  <a href="../glyph/{{ glyph.0 }}"> 
+  {{ glyph.1 }}
+  </a>
+{% endfor %}
+  </td>
+
+  <td class="sourcelabel">
+{% for rhyme in line.rhymes %}
+  {{ rhyme }}
+{% endfor %}
+  </td>
+ 
+  <td class="sourcelabel">
+{% for rhymeset in line.rhymesets %}
+  {{ rhymeset }}
+{% endfor %}
+  </td>
+
+ </tr>
+{% endfor %}
+ 
+</table>                                     {# end main table #}
+
+
+
+{% include "bottom.html" %}
+

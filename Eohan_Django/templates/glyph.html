@@ -1,0 +1,637 @@
+{% include "top.html" %}
+
+{% load custom_tags %}
+
+                    {#######################}
+                    {#                     #}
+                    {#         GLYPH       #}
+                    {#                     #}
+                    {#######################}
+    
+<h1 id="glyphheader" align=center>                {# glyph header #}
+{{glyph.glyph.0.0}}
+</h1>
+
+<table id="data" align=center>
+ <tr>
+  <td valign=top>
+
+
+
+                    {#######################}
+                    {#                     #}
+                    {#       DIALECTS      #}
+                    {#                     #}
+                    {#######################}
+
+
+   <table id="dialects" class="datacolumn">       {# .datacolumn  #}
+    <tr>
+     <th class="dataheader">                      {# .dataheader  #}
+     Dialects
+     </th>
+    </tr>
+                    {#                     #}     
+                    {#       MANDARIN      #}     
+                    {#                     #}     
+    <tr>
+     <td class="dataset" valign=top>              {# .dataset  #}
+     Mandarin
+     </td>                                        
+     <td class="datavalues">                      {# .datavalues  #}
+      <table>                                     
+{% for reading in glyph.mandarin %}
+       <tr>
+        <td>
+         <a href = "../../mandarin/{{ reading }}">
+         {{ reading }}
+         </a>
+        </td>
+       </tr>
+{% endfor %}
+      </table>
+     </td>
+    </tr>
+                    {#                     #}     
+                    {#       CANTONESE     #}     
+                    {#                     #}     
+    <tr>
+     <td class="dataset" valign=top>
+     Cantonese
+     </td>
+     <td class="datavalues">
+      <table>
+{% for reading in glyph.cantonese %}
+       <tr>
+        <td>
+         <a href = "../../cantonese/{{ reading }}">
+         {{ reading }}
+         </a>
+        </td>
+       </tr>
+{% endfor %}
+      </table>
+     </td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td>
+     </td>
+    </tr>
+   </table>
+  </td>
+
+
+
+                    {#######################}
+                    {#                     #}
+                    {#      SINOXENIC      #}
+                    {#                     #}
+                    {#######################}
+
+   <td valign=top>
+    <table id="sinoxenic" class="datacolumn">     {# .datacolumn  #}
+     <tr>
+      <th class="dataheader" colspan=2>           {# .dataheader  #}
+      Sinoxenic
+      </th>
+     </tr>                                         
+                    {#                     #}     
+                    {#       JAPANESE      #}     
+                    {#                     #}     
+     <tr>
+      <td class="dataset" valign=top>             {# .dataset  #}
+      Japanese
+      </td>
+      <td class="datavalues">                     {# .datavalues  #}
+       <table>                                     
+{% for reading in glyph.japaneseon %}
+        <tr>
+         <td>
+          <a href = "../../japanese/{{ reading }}">
+          {{ reading }}
+          </a>
+         </td>
+        </tr>
+{% endfor %}
+       </table>
+      </td>
+     </tr>
+                    {#                     #}     
+                    {#        KOREAN       #}     
+                    {#                     #}     
+     <tr>
+      <td class="dataset" valign=top>
+      Korean
+      </td>
+      <td class="datavalues">
+       <table>
+{% for reading in glyph.korean %}
+        <tr>
+         <td>
+          <a href = "../../korean/{{ reading }}">
+          {{ reading }}
+          </a>
+         </td>
+        </tr>
+{% endfor %}
+       </table>
+      </td>
+     </tr>
+                    {#                     #}     
+                    {#      VIETNAMESE     #}     
+                    {#                     #}     
+     <tr>
+      <td valign=top>
+      Vietnamese
+      </td>
+      <td class="datavalues">
+       <table>
+{% for reading in glyph.vietnamese %}
+        <tr>
+         <td>
+          <a href = "../../vietnamese/{{ reading }}">
+          {{ reading }}
+          </a>
+         </td>
+        </tr>
+{% endfor %}
+       </table>
+      </td>
+     </tr>
+    </table>
+   </td>
+
+
+
+                    {#######################}
+                    {#                     #}
+                    {#      GRAPHICAL      #}
+                    {#                     #}
+                    {#######################}
+
+   <td valign=top>
+    <table id="graphical" class="datacolumn">     {# .datacolumn  #}
+     <tr>
+      <th class="dataheader" colspan=2>           {# .dataheader  #}
+      Graphical
+      </th>
+     </tr>                                        
+                    {#                     #}     
+                    {#       RADICAL       #}     
+                    {#                     #}     
+     <tr>
+      <td class="dataset" valign=top>             {# .dataset  #}
+      Radical
+      </td>                                       
+      <td>
+       <a href="../../radical/{{ glyph.radicalnumber.0 }}">
+       {{ glyph.radicalnumber.0 }}.{{ glyph.strokecount.0 }}
+       </a>
+      </td>
+     </tr>
+                    {#                     #}     
+                    {#     FOUR CORNER     #}     
+                    {#                     #}     
+     <tr>
+      <td class="dataset" valign=top>             {# .dataset  #}
+      Four Corner Code
+      </td>                                       
+      <td>
+       <a href="../../fourcornercode/{{glyph.codepoint.0}}">
+       {{ glyph.nwcorner.0 }}{{ glyph.necorner.0 }}{{ glyph.swcorner.0 }}{{ glyph.secorner.0 }}.{{ glyph.esecorner.0 }}
+       </a>
+      </td>
+     </tr>
+                    {#                     #}     
+                    {#      KARLGREN       #}     
+                    {#                     #}     
+     <tr>
+      <td class="dataset" valign=top>             {# .dataset  #}
+      Karlgren
+      </td>           
+      <td class="datavalues">                     {# .datavalues  #}
+       <table>                                    
+{% for series in glyph.karlgrenseries %}
+        <tr>
+         <td>
+          <a href="../../karlgren/{{series}}">
+          {{ series }}
+          </a>
+         </td>
+        </tr>
+{% endfor %}
+       </table>
+      </td>
+     </tr>
+                    {#                     #}     
+                    {#       WIEGER        #}     
+                    {#                     #}     
+     <tr>
+      <td class="dataset" valign=top>             {# .dataset  #}
+      Wieger
+      </td>                                       
+      <td class="datavalues">                     {# .datavalues  #}
+       <table>                                    
+{% for series in glyph.wieger %}
+        <tr>
+         <td>
+          <a href="../../wieger/{{ series }}">
+          {{ series }}
+          </a>
+         </td>
+        </tr>
+{% endfor %}
+       </table>
+      </td>
+     </tr>
+    </table>
+   </td>
+  </tr>
+ </table>
+
+{# A hack to separate the data and reconstruction tables. #}
+ <table>
+  <tr>
+    <td>&nbsp;
+    </td>
+  </tr>
+ </table>
+
+
+                    {#######################}
+                    {#                     #}
+                    {#    RECONSTRUCTION   #}
+                    {#                     #}
+                    {#######################}
+
+ <table id="reconstruction" align=center>
+  <tr>
+
+
+
+                    {#######################}
+                    {#                     #}
+                    {#        SOURCES      #}
+                    {#                     #}
+                    {#######################}
+
+   <td valign=top>
+    <table id="concordances" class="datacolumn">       {# .datacolumn  #}
+     <tr>
+      <th class="dataheader" colspan=2>           {# .dataheader  #}
+      Sources
+      </th>
+     </tr>                             
+     <tr>
+      <td class="dataset">                        {# .dataset  #}
+      </td>
+      <td class="datavalues">
+      </td>
+     </tr>                                        
+                    {#                     #}     
+                    {#  ZHONGYUAN YINYUN   #}     
+                    {#                     #}     
+     <tr>
+      <td>
+      Zhongyuan Yinyun
+      </td>
+{% ifnotequal  glyph.zhongyuanyinyun.0 0 %}
+      <td>
+       <a href="../../zhongyuanyinyunconcordance/{{ glyph.codepoint.0 }}/#{{ glyph.codepoint.0 }}">
+       Zhongyuan Yinyun
+       </a>
+      </td>
+{% else %}
+      <td>
+      </td>
+{% endifnotequal %}
+     </tr>
+     <tr>
+     </tr>
+                    {#                     #}     
+                    {#       YUNJING       #}     
+                    {#                     #}     
+     <tr>
+      <td>
+      Yunjing
+      </td>
+{% ifnotequal glyph.yunjing.0 0 %}
+      <td>
+       <a href="../../yunjingconcordance/{{glyph.codepoint.0 }}">
+       Yunjing
+       </a>
+      </td>
+{% else %}
+      <td>
+      </td>
+{% endifnotequal %}
+     </tr>
+                    {#                     #}     
+                    {#      GUANGYUN       #}     
+                    {#                     #}     
+     <tr>
+      <td>
+      Guangyun
+      </td>
+{% ifnotequal glyph.guangyun.0 0 %}
+      <td>
+       <a href="../../guangyunconcordance/{{glyph.codepoint.0 }}">
+       Guangyun
+       </a>
+      </td>
+{% else %}
+      <td>
+      </td>
+{% endifnotequal %}
+     </tr>
+                    {#                     #}     
+                    {#       SHIJING       #}     
+                    {#                     #}     
+     <tr>
+      <td>
+      Shijing
+      </td>
+{% ifnotequal glyph.shijing.0 0 %}
+      <td>
+       <a href="../../shijingconcordance/{{glyph.codepoint.0 }}">
+       Shijing
+       </a>
+      </td>
+{% else %}
+      <td>
+      </td>
+{% endifnotequal %}
+     </tr>
+                    {#                     #}     
+                    {#         GSR         #}     
+                    {#                     #}     
+     <tr>
+      <td>
+      GSR
+      </td>
+{% ifnotequal glyph.gsr.0 0 %}
+      <td>
+       <a href="../../gsrconcordance/{{glyph.codepoint.0 }}">
+       GSR
+       </a>
+      </td>
+{% else %}
+      <td>
+      </td>
+{% endifnotequal %}
+     </tr>
+    </table>
+   </td>
+
+
+
+
+                    {#######################}
+                    {#                     #}
+                    {#     PULLEYBLANK     #}
+                    {#                     #}
+                    {#######################}
+
+   <td valign=top>
+    <table id="pulleyblank" class="datacolumn">   {# .datacolumn  #}
+     <tr>
+      <th class="dataheader" colspan=2>           {# .dataheader  #}
+      Pulleyblank system
+      </th>
+     </tr>         
+                    {#                     #}     
+                    {#   EARLY MANDARIN    #}     
+                    {#                     #}     
+     <tr>
+      <td class="dataset" valign=top>             {# .dataset  #}
+      Early Mandarin
+      </td>           
+      <td class="datavalues">
+       <table>                                    {# .datavalues  #}
+{% for reading in glyph.earlymandarin %}
+        <tr>
+         <td>
+          <a href="../../em/{{ reading }}">
+          {{ glyph.earlymandarin.0 }}
+          </a>
+         </td>
+        </tr>
+{% endfor %}
+       </table>
+      </td>
+     </tr>
+                    {#                     #}     
+                    {# LATE MIDDLE CHINESE #}     
+                    {#                     #}     
+     <tr>
+      <td class="dataset" valign=top>             {# .dataset  #}
+      Late Middle Chinese
+      </td>                        
+      <td class="datavalues">                     {# .datavalues  #}
+{% for reading in glyph.lmc %}
+       <table>
+        <tr>
+         <td>
+          <a href="../../lmc/{{ reading }}">
+          {{ reading }}
+          </a>
+         </td>
+        </tr>
+{% endfor %}
+       </table>
+      </td>
+     </tr>
+                    {#                      #}     
+                    {# EARLY MIDDLE CHINESE #}     
+                    {#                      #}     
+     <tr>
+      <td class="dataset" valign=top>             {# .dataset  #}
+      Early Middle Chinese
+      </td>     
+      <td class="datavalues">                     {# .datavalues  #}
+       <table>                                    
+{% for reading in glyph.emc %}
+        <tr>
+         <td>
+          <a href="../../emc/{{ reading }}">
+          {{ reading }}
+          </a>
+         </td>
+        </tr>
+{% endfor %}
+       </table>
+      </td>
+     </tr>
+                    {#                     #}     
+                    {#   OLD CHINESE (P)   #}     
+                    {#                     #}     
+     <tr>
+      <td class="dataset" valign=top>             {# .dataset  #}
+      Old Chinese
+      </td>                                       
+      <td class="datavalues">                     {# .datavalues  #}
+       <table>                                    
+{% for reading, final in glyph.pulleyblank|zip:glyph.pulleyblankfinal %}
+        <tr>
+         <td>
+          <a href="../../ocp/{{ final }}"
+          </a>
+          {{ reading }}
+         </td>
+        </tr>
+{% endfor %}
+       </table>
+      </td>
+     </tr>
+    </table>
+   </td>
+
+
+                    {#######################}
+                    {#                     #}
+                    {#        BAXTER       #}
+                    {#                     #}
+                    {#######################}
+
+   <td valign=top>
+    <table id="baxter" class="datacolumn">        {# .datacolumn  #}
+     <tr>
+      <th class="dataheader" colspan=2>
+      Baxter system
+      </th>
+     </tr>                                        {# .dataheader  #}
+     <tr>
+      <td class="dataset">
+      </td>
+      <td class="datavalues">
+      </td>
+     </tr>                                        {# .dataset  #}
+                    {#                     #}     
+                    {#  MIDDLE CHINESE (B) #}     
+                    {#                     #}     
+     <tr>
+      <td class="dataset" valign=top>
+      Middle Chinese
+      </td>                                       {# .dataset  #}
+      <td class="datavalues">
+       <table>                                    {# .datavalues  #}
+{% for reading in glyph.mcb %}
+        <tr>
+         <td>
+          <a href="../../mcb/{{ reading }}">
+          {{ reading }}
+          </a>
+         </td>
+        </tr>
+{% endfor %}
+       </table>
+      </td>
+     </tr>
+     <tr>
+      <td class="dataset">                        {# .dataset  #}
+      </td>
+      <td>
+      </td>
+     </tr>                
+                    {#                     #}     
+                    {#   OLD CHINESE (B)   #}     
+                    {#                     #}     
+     <tr>
+      <td class="dataset" valign=top>             {# .dataset  #}
+      Old Chinese
+      </td>                          
+      <td class="datavalues">
+       <table>
+{% for reading, final in glyph.baxter|zip:glyph.baxterfinal %}
+        <tr>
+         <td>
+          <a href="../../ocb/{{ final }}"
+          </a>
+          {{ reading }}
+         </td>
+        </tr>
+{% endfor %}
+       </table>
+      </td>
+     </tr>
+    </table>
+   </td>
+
+      
+
+                    {#######################}
+                    {#                     #}
+                    {#      KARLGREN       #}
+                    {#                     #}
+                    {#######################}
+
+   <td valign=top>
+    <table id="baxter" class="datacolumn">        {# .datacolumn  #}
+     <tr>
+      <th class="dataheader" colspan=2>
+      Karlgren system
+      </th>
+     </tr>                                        {# .dataheader  #}
+     <tr>
+      <td class="dataset">
+      </td>
+      <td class="datavalues">
+      </td>
+     </tr>                                        {# .dataset  #}
+                    {#                     #}     
+                    {#  MIDDLE CHINESE (B) #}     
+                    {#                     #}     
+     <tr>
+      <td class="dataset" valign=top>
+      Middle Chinese
+      </td>                                       {# .dataset  #}
+      <td class="datavalues">
+       <table>                                    {# .datavalues  #}
+{% for reading in glyph.mck %}
+        <tr>
+         <td>
+          <a href="../../mck/{{ reading }}">
+          {{ reading }}
+          </a>
+         </td>
+        </tr>
+{% endfor %}
+       </table>
+      </td>
+     </tr>
+     <tr>
+      <td class="dataset">                        {# .dataset  #}
+      </td>
+      <td>
+      </td>
+     </tr>                
+                    {#                     #}     
+                    {#   OLD CHINESE (B)   #}     
+                    {#                     #}     
+     <tr>
+      <td class="dataset" valign=top>             {# .dataset  #}
+      Old Chinese
+      </td>                          
+      <td class="datavalues">
+       <table>
+{% for reading, final in glyph.karlgren|zip:glyph.karlgrenfinal %}
+        <tr>
+         <td>
+          <a href="../../ock/{{ final }}"
+          </a>
+          {{ reading }}
+         </td>
+        </tr>
+{% endfor %}
+       </table>
+      </td>
+     </tr>
+    </table>
+   </td>
+
+      
+  </tr>
+ </table>
+{% include "bottom.html" %}

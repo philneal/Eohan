@@ -1,0 +1,37 @@
+{% include "top.html" %}
+
+<h2 class="text">Japanese</h2>
+
+
+{% for dict in japaneseinitial %}
+
+{% ifchanged dict.second %}
+
+{% ifequal forloop.counter0 0 %}
+<table class="outersyllable">
+ <tr class="outersyllable">
+  <td class="outersyllable">
+    <table class="innersyllable">
+     <tr class="innersyllable">
+{% else %}
+
+    </tr>                        {# close inner #}
+   </table>                      {# close inner #}
+  </td>                          {# close outer #}
+ </tr>                           {# close outer #}
+ <tr class="outersyllable">      {# open outer #}
+  <td class="outersyllable">     {# open outer #}
+   <table class="innersyllable"> {# open inner #}
+    <tr class="innersyllable">   {# open inner #}
+{% endifequal %}
+{% endifchanged %}
+      <td class="innersyllable">
+       <a href="../../japanese/{{ dict.reading }}">
+        {{ dict.reading }}
+       </a>
+      </td>
+{% endfor %}
+
+</tr></table></td></tr></table>
+
+{% include "bottom.html" %}

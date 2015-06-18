@@ -1,0 +1,406 @@
+﻿{% include "top.html" %}
+
+<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}yunjing.css"></link>
+<h2 class="text">Yunjing</h2>
+<h2 class="text">韻鏡</h2>
+<h3 class="text">{{ yunjingtextbyrhyme.left.0.rhymelabel }}</h3>
+<h3 class="text">{{ yunjingtextbyrhyme.left.0.rusheng }}&nbsp;{{ yunjingtextbyrhyme.left.0.fanqie }}
+&nbsp;{{ yunjingtextbyrhyme.left.0.gradekeys1 }}&nbsp;
+&nbsp;{{ yunjingtextbyrhyme.left.0.gradekeys2 }}&nbsp;
+&nbsp;{{ yunjingtextbyrhyme.left.0.gradekeys3 }}&nbsp;
+&nbsp;{{ yunjingtextbyrhyme.left.0.gradekeys4 }}</h3>
+
+          {############################}
+          {#      GLYPH TEXT          #}
+          {############################}
+
+          {#++++++++++++++++++++++++++#}
+          {# Double page block        #}
+          {#++++++++++++++++++++++++++#}
+
+<div class="background">
+<table class="doublepage">
+ <tr>
+
+          {############################}
+          {#     LEFT HAND PAGE       #}
+          {############################}
+
+          {#++++++++++++++++++++++++++#}
+          {# Left hand margin         #}
+          {#++++++++++++++++++++++++++#}
+    
+  <td>
+   <table class="leftpage">
+    <tr class="frame">
+     <td class="frame">
+
+          {#++++++++++++++++++++++++++#}
+          {# Left hand table          #}
+          {#++++++++++++++++++++++++++#}
+    
+      <table class="frame">
+
+          {#++++++++++++++++++++++++++#}
+          {# Column labels            #}
+          {#++++++++++++++++++++++++++#}
+
+       {% comment %}
+       {# These are properties of the iframe and cannot be implemented in CSS. #}
+       {# marginheight and marginwidth are deprecated in HTML5 but with no support for alternatives. #}
+
+       <iframe class="topleft" marginheight=0 marginwidth=0 scrolling=no src="../../yunjingheader">
+       </iframe>
+       {% endcomment %}
+
+{% for cell in yunjingtextbyrhyme.left %}
+
+          {#++++++++++++++++++++++++++#}
+          {# Open grade row           #}
+          {#++++++++++++++++++++++++++#}
+
+{% if cell.initial == 23 %}
+       <tr class="frame">
+        <td class="frame">
+         <table class="graderow_{{ cell.grade }}">
+          <tr class="frame">
+{% endif %}
+
+          {#++++++++++++++++++++++++++#}
+          {# Character cell           #}
+          {#++++++++++++++++++++++++++#}
+    
+           <td class="charactercell">
+            <table class="initialborder_{{ cell.initial }}">
+             <tr>
+{% ifequal cell.codepoint 'U+3007' %}
+              <td>{{ cell.glyph }}</td>
+{% else %}
+              <td><a href="../../glyph/{{ cell.codepoint }}">{{ cell.glyph }}</a></td>
+{% endifequal %}
+             </tr>
+            </table>
+           </td>
+
+          {#++++++++++++++++++++++++++#}
+          {# Close grade row          #}
+          {#++++++++++++++++++++++++++#}
+    
+{% if cell.initial == 13 %}
+          </tr>
+         </table>
+        </td>
+       </tr>
+{% endif %}
+
+{% endfor %}
+
+          {#++++++++++++++++++++++++++#}
+          {# Close left hand page     #}
+          {#++++++++++++++++++++++++++#}
+    
+      </table>
+
+          {#++++++++++++++++++++++++++#}
+          {# Close left hand margin   #}
+          {#++++++++++++++++++++++++++#}
+    
+     </td>
+    </tr>
+   </table>
+  </td>
+
+          {#++++++++++++++++++++++++++#}
+          {#     RIGHT HAND PAGE      #}
+          {#++++++++++++++++++++++++++#}
+
+          {#++++++++++++++++++++++++++#}
+          {# Right hand margin        #}
+          {#++++++++++++++++++++++++++#}
+    
+  <td>
+   <table class="rightpage">
+    <tr class="frame">
+     <td class="frame">
+
+          {#++++++++++++++++++++++++++#}
+          {# Right hand page          #}
+          {#++++++++++++++++++++++++++#}
+    
+      <table class="frame">
+
+{% for cell in yunjingtextbyrhyme.right %}
+
+          {#++++++++++++++++++++++++++#}
+          {# Open grade row           #}
+          {#++++++++++++++++++++++++++#}
+    
+{% if cell.initial == 12 %}
+       <tr class="frame">
+        <td class="frame">
+         <table class="graderow_{{ cell.grade }}">
+          <tr class="frame">
+{% endif %}
+
+          {#++++++++++++++++++++++++++#}
+          {# Character cell           #}
+          {#++++++++++++++++++++++++++#}
+    
+           <td class="charactercell">
+            <table class="initialborder_{{ cell.initial }}">
+             <tr>
+{% ifequal cell.codepoint 'U+3007' %}
+              <td>{{ cell.glyph }}</td>
+{% else %}
+              <td><a href="../../glyph/{{ cell.codepoint }}">{{ cell.glyph }}</a></td>
+{% endifequal %}
+             </tr>
+            </table>
+           </td>
+
+          {#++++++++++++++++++++++++++#}
+          {# Close grade row          #}
+          {#++++++++++++++++++++++++++#}
+    
+{% if cell.initial == 1 %}
+          </tr>
+         </table>
+        </td>
+       </tr>
+{% endif %}
+
+{% endfor %}
+
+          {#++++++++++++++++++++++++++#}
+          {# Close right hand page    #}
+          {#++++++++++++++++++++++++++#}
+    
+      </table>
+
+          {#++++++++++++++++++++++++++#}
+          {# Close right hand margin  #}
+          {#++++++++++++++++++++++++++#}
+    
+     </td>
+    </tr>
+   </table>
+
+          {#++++++++++++++++++++++++++#}
+          {# Close double page        #}
+          {#++++++++++++++++++++++++++#}
+    
+  </td>
+ </tr>
+</table>
+
+          {#++++++++++++++++++++++++++#}
+          {# Close double page block  #}
+          {#++++++++++++++++++++++++++#}
+    
+</div>
+
+          {############################}
+          {#     READINGS KEY         #}
+          {############################}
+
+          {############################}
+          {#     LEFT HAND KEY        #}
+          {############################}
+
+
+          {#++++++++++++++++++++++++++#}
+          {# *** "double" page - now single page #}
+          {#++++++++++++++++++++++++++#}
+    
+<div class="background">
+
+<table class="doublepage">
+ <tr>
+  <td>
+
+          {#++++++++++++++++++++++++++#}
+          {# Left hand margin         #}
+          {#++++++++++++++++++++++++++#}
+    
+   <table class="leftpage">
+    <tr class="frame">
+     <td class="frame">
+
+          {#++++++++++++++++++++++++++#}
+          {# Left hand page           #}
+          {#++++++++++++++++++++++++++#}
+    
+      <table class="frame">
+
+{% for cell in yunjingtextbyrhyme.left %}
+
+          {#++++++++++++++++++++++++++#}
+          {# Open grade row           #}
+          {#++++++++++++++++++++++++++#}
+    
+{% if cell.initial == 23 %}
+       <tr class="frame">
+        <td class="frame">
+         <table class="graderow_{{ cell.grade }}">
+          <tr class="frame">
+{% endif %}
+
+          {#++++++++++++++++++++++++++#}
+          {# Character cell           #}
+          {#++++++++++++++++++++++++++#}
+    
+           <td class="readingcell">
+            <table class="initialborder_{{ cell.initial }}">
+             <tr>
+{% if cell.lmc = '' %}
+              <td class="reading">&#x3007;</td>
+{% else %}
+              <td class="reading">{{ cell.lmc }}</td>
+{% endif %}
+           </tr>
+            </table>
+           </td>
+
+          {#++++++++++++++++++++++++++#}
+          {# Close grade row          #}
+          {#++++++++++++++++++++++++++#}
+    
+{% if cell.initial == 13 %}
+          </tr>
+         </table>
+        </td>
+       </tr>
+{% endif %}
+
+{% endfor %}
+
+          {#++++++++++++++++++++++++++#}
+          {# Close left hand page     #}
+          {#++++++++++++++++++++++++++#}
+    
+      </table>
+
+          {#++++++++++++++++++++++++++#}
+          {# Close left hand margin   #}
+          {#++++++++++++++++++++++++++#}
+    
+     </td>
+    </tr>
+   </table>
+  </td>
+
+          {#++++++++++++++++++++++++++#}
+          {# Close "double" page      #}
+          {#++++++++++++++++++++++++++#}
+    
+  </td>
+ </tr>
+</table>
+  
+          {#++++++++++++++++++++++++++#}
+          {# Close "double" page block#}
+          {#++++++++++++++++++++++++++#}
+    
+</div>
+
+          {############################}
+          {#     RIGHT HAND KEY       #}
+          {############################}
+
+
+          {#++++++++++++++++++++++++++#}
+          {#*** "double" page - now single page #}
+          {#++++++++++++++++++++++++++#}
+    
+<div class="background">
+
+<table class="doublepage">
+ <tr>
+  <td>
+
+          {#++++++++++++++++++++++++++#}
+          {# Right hand margin        #}
+          {#++++++++++++++++++++++++++#}
+    
+   <table class="rightpage">
+    <tr class="frame">
+     <td class="frame">
+
+          {#++++++++++++++++++++++++++#}
+          {# Right hand page          #}
+          {#++++++++++++++++++++++++++#}
+    
+      <table class="frame">
+
+{% for cell in yunjingtextbyrhyme.right %}
+
+          {#++++++++++++++++++++++++++#}
+          {# Open grade row           #}
+          {#++++++++++++++++++++++++++#}
+    
+{% if cell.initial == 12 %}
+       <tr class="frame">
+        <td class="frame">
+         <table class="graderow_{{ cell.grade }}">
+          <tr class="frame">
+{% endif %}
+
+          {#++++++++++++++++++++++++++#}
+          {# Character cell           #}
+          {#++++++++++++++++++++++++++#}
+    
+           <td class="readingcell">
+            <table class="initialborder_{{ cell.initial }}">
+             <tr>
+{% if cell.lmc = '' %}
+              <td class="reading">&#x3007;<td>
+{% else %}
+              <td class="reading">{{ cell.lmc }}</td>
+{% endif %}
+           </tr>
+            </table>
+           </td>
+
+          {#++++++++++++++++++++++++++#}
+          {# Close grade row          #}
+          {#++++++++++++++++++++++++++#}
+    
+{% if cell.initial == 1 %}
+          </tr>
+         </table>
+        </td>
+       </tr>
+{% endif %}
+
+{% endfor %}
+
+          {#++++++++++++++++++++++++++#}
+          {# Close right hand page    #}
+          {#++++++++++++++++++++++++++#}
+    
+      </table>
+
+          {#++++++++++++++++++++++++++#}
+          {# Close right hand margin  #}
+          {#++++++++++++++++++++++++++#}
+    
+     </td>
+    </tr>
+   </table>
+  </td>
+
+          {#++++++++++++++++++++++++++#}
+          {# Close "double" page      #}
+          {#++++++++++++++++++++++++++#}
+    
+  </td>
+ </tr>
+</table>
+
+          {#++++++++++++++++++++++++++#}
+          {# Close "double" page block #}
+          {#++++++++++++++++++++++++++#}
+    
+</div>
+
+{% include "bottom.html" %}

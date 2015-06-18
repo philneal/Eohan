@@ -1,0 +1,4074 @@
+(dp0
+V189 he 4
+p1
+(dp2
+Vat
+p3
+Vwjàt
+p4
+ssV189 he 3
+p5
+(dp6
+g3
+Vw(r)jàt
+p7
+ssV189 he 2
+p8
+(dp9
+g3
+Vwràt
+p10
+ssV13 he 2
+p11
+(dp12
+Vaj
+p13
+Vwráj
+p14
+ssV147 kai 4
+p15
+(dp16
+Vakw
+p17
+Vjàkw\u0283
+p18
+sVaw
+p19
+Vjàw\u0283
+p20
+ssV147 kai 3
+p21
+(dp22
+g17
+Vàkw\u0283
+p23
+sg19
+Vàw\u0283
+p24
+ssV165 kai 1
+p25
+(dp26
+V\u01ddm
+p27
+V\u0259\u0301m\u0283
+p28
+ssV114 kai 1
+p29
+(dp30
+V\u01dd\u014bw
+p31
+V\u0259\u0301\u014bw\u0283
+p32
+ssV206 he 3
+p33
+(dp34
+Vap
+p35
+Vwàp
+p36
+ssV193 he 2
+p37
+(dp38
+Vakj
+p39
+Vwrákj
+p40
+sVak
+p41
+Vwrják
+p42
+sV\u01ddk
+p43
+Vwr\u0259\u0301k
+p44
+ssV176 kai 2
+p45
+(dp46
+V\u01ddkw
+p47
+Vr\u0259\u0301kw
+p48
+sVakw
+p49
+Vrákw
+p50
+sVak\u0265
+p51
+Vrák\u0265
+p52
+ssV36 he 1
+p53
+(dp54
+Val
+p55
+Vwál
+p56
+ssV52 kai 3
+p57
+(dp58
+Vam
+p59
+V(r)àm
+p60
+ssV52 kai 4
+p61
+(dp62
+g59
+Vjàm
+p63
+ssV68 he 4
+p64
+(dp65
+V\u01ddl
+p66
+Vwj\u0259\u0301l\u0103
+p67
+sVaj
+p68
+Vwáj\u0103
+p69
+sV\u01ddj
+p70
+Vw\u0259\u0301j\u0103
+p71
+ssV32 kai 3
+p72
+(dp73
+g19
+Vàw
+p74
+ssV58 kai 1
+p75
+(dp76
+V\u01ddm
+p77
+V-\u0103
+p78
+sVa\u014b\u0265
+p79
+Vá\u014b\u0265\u0103
+p80
+ssV156 kai 2
+p81
+(dp82
+Vakj
+p83
+Vrákj\u0283
+p84
+sV\u01dd\u014b
+p85
+Vr\u0259\u0301\u014b\u0283
+p86
+sVa\u014bj
+p87
+Vrá\u014bj\u0283
+p88
+ssV155 kai 4
+p89
+(dp90
+Va\u014bj
+p91
+Vjà\u014bj\u0283
+p92
+sVa\u014b
+p93
+Vrjà\u014b\u0283
+p94
+ssV5 kai 3
+p95
+(dp96
+Vaj
+p97
+Vàj
+p98
+sVal
+p99
+Vàl
+p100
+ssV5 kai 2
+p101
+(dp102
+g97
+Vràj
+p103
+sg99
+Vràl
+p104
+ssV125 he 4
+p105
+(dp106
+Vap
+p107
+Vwjàp\u0283
+p108
+sVat
+p109
+Vwjàt\u0283
+p110
+ssV125 he 3
+p111
+(dp112
+g107
+Vwjàp\u0283
+p113
+sg109
+Vwjàt\u0283
+p114
+ssV125 he 1
+p115
+(dp116
+g107
+V-\u0283
+p117
+ssV190 kai 2
+p118
+(dp119
+Vak
+p120
+Vàk
+p121
+ssV190 kai 3
+p122
+(dp123
+g120
+Vàk
+p124
+sVakw
+p125
+Vàkw
+p126
+ssV146 kai 1
+p127
+(dp128
+Vakw
+p129
+V\u0283
+p130
+ssV156 he 2
+p131
+(dp132
+g83
+Vwrákj\u0283
+p133
+sg85
+Vwr\u0259\u0301\u014b\u0283
+p134
+sg87
+Vwrá\u014bj\u0283
+p135
+ssV190 kai 4
+p136
+(dp137
+g120
+Vàk
+p138
+sg125
+Vjàkw
+p139
+ssV146 kai 4
+p140
+(dp141
+V\u01ddkw
+p142
+Vj\u0259\u0301kw\u0283
+p143
+sV\u01ddw
+p144
+Vj\u0259\u0301w\u0283
+p145
+sg129
+Vjákw\u0283
+p146
+sVaw
+p147
+Vjáw\u0283
+p148
+ssV94 kai 1
+p149
+(dp150
+Va\u014b
+p151
+Vá\u014b\u0103
+p152
+ssV27 kai 1
+p153
+(dp154
+Van
+p155
+V-
+p156
+ssV27 kai 2
+p157
+(dp158
+g155
+Vrán
+p159
+ssV130 he 1
+p160
+(dp161
+V\u01ddl
+p162
+Vw\u0259\u0301l\u0283
+p163
+sV\u01ddk
+p164
+Vw\u0259\u0301:k\u0283
+p165
+sV\u01ddp
+p166
+Vw\u0259\u0301p\u0283
+p167
+sV\u01dd\u0263
+p168
+Vw\u0259\u0301:\u0263\u0283
+p169
+sV\u01ddt
+p170
+Vw\u0259\u0301t\u0283
+p171
+ssV104 kai 1
+p172
+(dp173
+V\u01ddm
+p174
+V- \u0103
+p175
+ssV135 he 3
+p176
+(dp177
+V\u01ddn
+p178
+Vw\u0259\u0300n\u0283
+p179
+ssV104 kai 3
+p180
+(dp181
+g174
+V(r)\u0259\u0300m\u0103
+p182
+ssV104 kai 2
+p183
+(dp184
+g174
+Vr\u0259\u0300m\u0103
+p185
+ssV104 kai 4
+p186
+(dp187
+g174
+Vj\u0259\u0300m\u0103
+p188
+ssV198 kai 2
+p189
+(dp190
+V\u01ddp
+p191
+Vr\u0259\u0300p
+p192
+ssV198 kai 3
+p193
+(dp194
+g191
+V(r)\u0259\u0300p
+p195
+ssV75 kai 3
+p196
+(dp197
+g178
+V\u0259\u0300n\u0103
+p198
+ssV198 kai 1
+p199
+(dp200
+g191
+V- 
+p201
+ssV22 he 3
+p202
+(dp203
+Van
+p204
+Vwàn
+p205
+ssV198 kai 4
+p206
+(dp207
+g191
+Vj\u0259\u0300p
+p208
+ssV16 kai 1
+p209
+(dp210
+V\u01ddl
+p211
+V\u0259\u0301l
+p212
+sV\u01dd\u0263
+p213
+V\u0259\u0301\u0263
+p214
+ssV16 kai 3
+p215
+(dp216
+g211
+V\u0259\u0301l
+p217
+ssV16 kai 4
+p218
+(dp219
+g213
+V\u0259\u0301\u0263
+p220
+ssV50 kai 1
+p221
+(dp222
+g27
+V\u0259\u0301m
+p223
+ssV80 kai 1
+p224
+(dp225
+Van
+p226
+Ván\u0103
+p227
+ssV45 kai 1
+p228
+(dp229
+V\u01dd\u014b
+p230
+V\u0259\u0301\u014b
+p231
+ssV112 he 3
+p232
+(dp233
+Vam
+p234
+Vwàm\u0103
+p235
+ssV125 kai 2
+p236
+(dp237
+g107
+V-\u0283
+p238
+ssV125 kai 3
+p239
+(dp240
+g107
+Vjàp\u0283
+p241
+sg109
+Vjàt\u0283
+p242
+ssV157 kai 3
+p243
+(dp244
+Va\u014bj
+p245
+Vjà\u014bj\u0283
+p246
+ssV3 kai 1
+p247
+(dp248
+Va\u014b\u0265
+p249
+g156
+ssV157 kai 4
+p250
+(dp251
+g245
+Vjà\u014bj\u0283
+p252
+ssV82 he 2
+p253
+(dp254
+g155
+Vwrán\u0103
+p255
+ssV88 kai 2
+p256
+(dp257
+V\u01ddw
+p258
+Vr\u0259\u0301w\u0103
+p259
+sVaw
+p260
+Vráw\u0103
+p261
+ssV55 kai 2
+p262
+(dp263
+Vam
+p264
+Vrám
+p265
+ssV177 he 4
+p266
+(dp267
+V\u01ddt
+p268
+Vwj\u0259\u0300t
+p269
+sV\u01ddkj
+p270
+Vwj\u0259\u0300kj
+p271
+ssV177 he 2
+p272
+(dp273
+g268
+Vwr\u0259\u0300t
+p274
+ssV177 he 3
+p275
+(dp276
+g270
+V[w\u0259\u0300kj]
+p277
+ssV21 kai 3
+p278
+(dp279
+V\u01ddn
+p280
+V\u0259\u0300n
+p281
+ssV126 kai 1
+p282
+(dp283
+Vap
+p284
+Váp\u0283
+p285
+sVat
+p286
+Vát\u0283
+p287
+ssV59 kai 1
+p288
+(dp289
+g249
+V-\u0103
+p290
+ssV59 kai 4
+p291
+(dp292
+g249
+V-\u0103
+p293
+ssV42 kai 3
+p294
+(dp295
+g245
+Vjà\u014bj
+p296
+ssV89 kai 1
+p297
+(dp298
+V\u01ddw
+p299
+V\u0259\u0301w\u0103
+p300
+sVaw
+p301
+Váw\u0103
+p302
+ssV42 kai 4
+p303
+(dp304
+g245
+Vjà\u014bj
+p305
+ssV197 kai 1
+p306
+(dp307
+V\u01ddk
+p308
+V\u0259\u0301k
+p309
+ssV160 he 1
+p310
+(dp311
+g230
+Vw\u0259\u0301\u014b\u0283
+p312
+ssV86 kai 4
+p313
+(dp314
+g144
+Vj\u0259\u0301w\u0103
+p315
+sg147
+Vjáw\u0103
+p316
+ssV188 he 4
+p317
+(dp318
+V\u01ddt
+p319
+Vwj\u0259\u0301t
+p320
+sVat
+p321
+Vwját
+p322
+sV\u01ddkj
+p323
+Vw\u0259\u0301kj
+p324
+ssV119 kai 4
+p325
+(dp326
+V\u01ddk
+p327
+Vj\u0259\u0300k\u0283
+p328
+sV\u01dd\u0263
+p329
+Vj\u0259\u0300\u0263\u0283
+p330
+ssV119 kai 3
+p331
+(dp332
+g327
+V\u0259\u0300k\u0283
+p333
+sg329
+V\u0259\u0300\u0263\u0283
+p334
+ssV119 kai 2
+p335
+(dp336
+g327
+Vr\u0259\u0300k\u0283
+p337
+sg329
+Vr\u0259\u0300\u0263\u0283
+p338
+ssV69 he 2
+p339
+(dp340
+g13
+Vwráj\u0103
+p341
+ssV10 he 3
+p342
+(dp343
+Va\u0263
+p344
+Vwà\u0263
+p345
+sVa\u0265
+p346
+Và\u0265
+p347
+ssV10 he 2
+p348
+(dp349
+g344
+Vwà\u0263
+p350
+sg346
+Vrà\u0265
+p351
+ssV13 kai 2
+p352
+(dp353
+g13
+Vráj
+p354
+ssV123 he 1
+p355
+(dp356
+Va\u0263
+p357
+Vá\u0263\u0283
+p358
+ssV10 he 4
+p359
+(dp360
+g344
+Vwà\u0263
+p361
+sg346
+Vjà\u0265
+p362
+ssV189 kai 3
+p363
+(dp364
+g3
+V(r)jàt
+p365
+ssV189 kai 4
+p366
+(dp367
+g3
+Vjàt
+p368
+ssV199 kai 2
+p369
+(dp370
+V\u01ddp
+p371
+V\u0259\u0301p
+p372
+ssV199 kai 1
+p373
+(dp374
+g371
+V\u0259\u0301p
+p375
+ssV150 kai 1
+p376
+(dp377
+Val
+p378
+Vál\u0283
+p379
+ssV17 he 3
+p380
+(dp381
+V\u01ddn
+p382
+Vwj\u0259\u0300n
+p383
+sV\u01dd\u014bj
+p384
+Vwj\u0259\u0300n
+p385
+ssV149 kai 1
+p386
+(dp387
+V\u01ddkw
+p388
+V\u0259\u0301kw\u0283
+p389
+sg299
+V\u0259\u0301w\u0283
+p390
+sg301
+Váw\u0283
+p391
+ssV138 he 1
+p392
+(dp393
+V\u01ddn
+p394
+Vw\u0259\u0301n\u0283
+p395
+ssV137 he 3
+p396
+(dp397
+g204
+Vwàn\u0283
+p398
+ssV118 he 4
+p399
+(dp400
+V\u01ddl
+p401
+Vwj\u0259\u0300l\u0283
+p402
+sV\u01ddkj
+p403
+V# \u01ddl, \u01ddj, \u01dd\u0263\u0283
+p404
+sV\u01ddp
+p405
+Vwj\u0259\u0300p\u0283
+p406
+sV\u01ddt
+p407
+Vwj\u0259\u0300t\u0283
+p408
+ssV118 he 3
+p409
+(dp410
+g407
+Vwj\u0259\u0300t\u0283
+p411
+sg405
+Vwj\u0259\u0300p\u0283
+p412
+sV\u01dd\u0263
+p413
+Vwr\u0259\u0300\u0263\u0283
+p414
+sg401
+Vwj\u0259\u0300l\u0283
+p415
+sg403
+V[wj\u0259\u0300kj]\u0283
+p416
+sV\u01ddk
+p417
+Vwr\u0259\u0300k\u0283
+p418
+ssV118 he 2
+p419
+(dp420
+g401
+Vwj\u0259\u0300l\u0283
+p421
+sg403
+V[w\u0259\u0300kj]\u0283
+p422
+ssV118 he 1
+p423
+(dp424
+g403
+V[wr\u0259\u0300kj]\u0283
+p425
+ssV30 kai 4
+p426
+(dp427
+Van
+p428
+Vjàn
+p429
+ssV30 kai 2
+p430
+(dp431
+g428
+V[ràn]
+p432
+ssV30 kai 3
+p433
+(dp434
+g428
+Vàn
+p435
+ssV62 he 2
+p436
+(dp437
+g401
+Vwj\u0259\u0300l\u0103
+p438
+ssV62 he 3
+p439
+(dp440
+g401
+Vwj\u0259\u0300l\u0103
+p441
+sg413
+Vwr\u0259\u0300\u0263\u0103
+p442
+ssV62 he 4
+p443
+(dp444
+g401
+Vwj\u0259\u0300l\u0103
+p445
+ssV170 kai 2
+p446
+(dp447
+V\u01ddm
+p448
+Vr\u0259\u0301m\u0283
+p449
+sVam
+p450
+Vrjám\u0283
+p451
+ssV170 kai 3
+p452
+(dp453
+g448
+Vr\u0259\u0301m\u0283
+p454
+ssV67 he 1
+p455
+(dp456
+g357
+Vá\u0263\u0103
+p457
+ssV202 kai 4
+p458
+(dp459
+Vap
+p460
+Vjáp
+p461
+sV\u01ddp
+p462
+Vj\u0259\u0301p
+p463
+ssV151 kai 3
+p464
+(dp465
+g55
+Và:l\u0283
+p466
+ssV151 kai 1
+p467
+(dp468
+g55
+Vál\u0283
+p469
+ssV173 kai 4
+p470
+(dp471
+V\u01ddkw
+p472
+V\u0259\u0300kw
+p473
+ssV173 kai 3
+p474
+(dp475
+g472
+V\u0259\u0300kw
+p476
+sV\u01ddk
+p477
+Vw\u0259\u0300k
+p478
+ssV173 kai 2
+p479
+(dp480
+g472
+Vrj\u0259\u0300kw
+p481
+ssV173 kai 1
+p482
+(dp483
+Vak\u0265
+p484
+Vák\u0265
+p485
+ssV98 he 4
+p486
+(dp487
+Vakj
+p488
+Vwáj\u0103
+p489
+sVa\u014bj
+p490
+Vwá\u014bj\u0103
+p491
+ssV77 kai 3
+p492
+(dp493
+g204
+Vàn\u0103
+p494
+ssV54 kai 2
+p495
+(dp496
+g448
+Vr\u0259\u0301m
+p497
+sg450
+Vrjám
+p498
+ssV169 kai 3
+p499
+(dp500
+Vam
+p501
+Vàm\u0283
+p502
+ssV32 kai 4
+p503
+(dp504
+g19
+Vjàw
+p505
+ssV7 kai 3
+p506
+(dp507
+g329
+V\u0259\u0300\u0263
+p508
+ssV183 kai 1
+p509
+(dp510
+V\u01ddt
+p511
+V\u0259\u0301t
+p512
+ssV7 kai 4
+p513
+(dp514
+g329
+Vj\u0259\u0300\u0263
+p515
+ssV115 kai 3
+p516
+(dp517
+g249
+V-\u0283
+p518
+ssV5 kai 4
+p519
+(dp520
+g97
+Vjàj
+p521
+sg99
+Vjàl
+p522
+ssV121 kai 4
+p523
+(dp524
+Va\u0263
+p525
+Vjà\u0263\u0283
+p526
+ssV155 kai 3
+p527
+(dp528
+g91
+V(r)à\u014bj\u0283
+p529
+sg93
+Vrà\u014b\u0283
+p530
+ssV29 he 4
+p531
+(dp532
+V\u01ddn
+p533
+Vwj\u0259\u0301n
+p534
+sV\u01dd\u014bj
+p535
+Vw\u0259\u0301\u014bj
+p536
+sVan
+p537
+Vwján
+p538
+ssV29 he 3
+p539
+(dp540
+g533
+Vwj\u0259\u0301n
+p541
+sg535
+Vw\u0259\u0301\u014bj
+p542
+ssV155 kai 2
+p543
+(dp544
+g91
+Vrà\u014bj\u0283
+p545
+sg93
+Vrá\u014b\u0283
+p546
+ssV136 kai 3
+p547
+(dp548
+g280
+V\u0259\u0300n\u0283
+p549
+ssV142 kai 2
+p550
+(dp551
+g155
+Vrán\u0283
+p552
+ssV142 kai 1
+p553
+(dp554
+g155
+V-\u0283
+p555
+ssV200 kai 1
+p556
+(dp557
+Vap
+p558
+Váp
+p559
+ssV128 kai 3
+p560
+(dp561
+V\u01ddj
+p562
+Vr\u0259\u0301j\u0283
+p563
+ssV128 kai 2
+p564
+(dp565
+V\u01ddt
+p566
+Vr\u0259\u0301t\u0283
+p567
+sV\u01ddp
+p568
+Vr\u0259\u0301p\u0283
+p569
+sVap
+p570
+Vrjáp\u0283
+p571
+sVat
+p572
+Vrját\u0283
+p573
+sV\u01dd\u0263
+p574
+Vr\u0259\u0301\u0263\u0283
+p575
+sV\u01ddl
+p576
+Vr\u0259\u0301l\u0283
+p577
+sV\u01ddkj
+p578
+Vr\u0259\u0301kj\u0283
+p579
+sV\u01ddk
+p580
+Vr\u0259\u0301k\u0283
+p581
+sg562
+Vr\u0259\u0301j\u0283
+p582
+ssV148 kai 1
+p583
+(dp584
+Vakw
+p585
+g130
+ssV144 kai 4
+p586
+(dp587
+g533
+Vj\u0259\u0301n\u0283
+p588
+sg535
+V\u0259\u0301\u014bj\u0283
+p589
+sg537
+Vján\u0283
+p590
+ssV148 kai 2
+p591
+(dp592
+V\u01ddkw
+p593
+Vr\u0259\u0301kw\u0283
+p594
+sg258
+Vr\u0259\u0301w\u0283
+p595
+sg585
+Vrákw\u0283
+p596
+sg260
+Vráw\u0283
+p597
+ssV93 he 2
+p598
+(dp599
+Va\u014b
+p600
+Vwrà\u014b\u0103
+p601
+ssV93 he 3
+p602
+(dp603
+g600
+Vwà\u014b\u0103
+p604
+ssV124 he 4
+p605
+(dp606
+V\u01ddt
+p607
+Vwj\u0259\u0301t\u0283
+p608
+sV\u01ddp
+p609
+Vwj\u0259\u0301p\u0283
+p610
+sg68
+Vwáj\u0283
+p611
+sg66
+Vwj\u0259\u0301l\u0283
+p612
+sV\u01ddkj
+p613
+Vw\u0259\u0301j\u0283
+p614
+sg70
+Vw\u0259\u0301j\u0283
+p615
+ssV141 he 1
+p616
+(dp617
+Van
+p618
+Vwán\u0283
+p619
+ssV92 kai 4
+p620
+(dp621
+Va\u0263
+p622
+Vjà:\u0263\u0103
+p623
+sVal
+p624
+Vjà:l\u0103
+p625
+ssV135 kai 3
+p626
+(dp627
+g178
+V\u0259\u0300n\u0283
+p628
+ssV68 kai 4
+p629
+(dp630
+g66
+Vj\u0259\u0301l\u0103
+p631
+sg68
+Váj\u0103
+p632
+sg70
+V\u0259\u0301j\u0103
+p633
+ssV12 kai 4
+p634
+(dp635
+g66
+Vj\u0259\u0301l
+p636
+sg68
+Váj
+p637
+sg70
+V\u0259\u0301j
+p638
+ssV137 kai 3
+p639
+(dp640
+g204
+Vàn\u0283
+p641
+ssV28 he 2
+p642
+(dp643
+V\u01ddn
+p644
+Vwr\u0259\u0301n
+p645
+sVan
+p646
+Vwrján
+p647
+ssV191 kai 1
+p648
+(dp649
+Vak
+p650
+Vák
+p651
+sVakw
+p652
+Vákw
+p653
+ssV191 he 1
+p654
+(dp655
+g650
+Vwák
+p656
+ssV171 kai 2
+p657
+(dp658
+g264
+Vrám\u0283
+p659
+ssV8 kai 3
+p660
+(dp661
+V\u01ddl
+p662
+V\u0259\u0300l
+p663
+ssV193 kai 1
+p664
+(dp665
+g41
+g156
+ssV153 kai 4
+p666
+(dp667
+g600
+Vjà\u014b\u0283
+p668
+ssV20 he 3
+p669
+(dp670
+g178
+Vw\u0259\u0300n
+p671
+ssV65 he 3
+p672
+(dp673
+g525
+V-\u0103
+p674
+ssV153 kai 3
+p675
+(dp676
+g600
+Và\u014b\u0283
+p677
+ssV153 kai 2
+p678
+(dp679
+g600
+Vrà\u014b\u0283
+p680
+ssV201 kai 3
+p681
+(dp682
+Vap
+p683
+V(r)àp
+p684
+ssV201 kai 4
+p685
+(dp686
+g683
+Vjàp
+p687
+ssV181 kai 3
+p688
+(dp689
+V\u01ddt
+p690
+V\u0259\u0300t
+p691
+ssV60 kai 2
+p692
+(dp693
+V\u01dd\u014bw
+p694
+Vr\u0259\u0301\u014bw\u0103
+p695
+sVa\u014b\u0265
+p696
+Vrá\u014b\u0265\u0103
+p697
+ssV110 kai 2
+p698
+(dp699
+g264
+Vrám\u0103
+p700
+ssV47 kai 1
+p701
+(dp702
+V\u01ddw
+p703
+g156
+sVa\u0265
+p704
+Vá\u0265
+p705
+sV\u01dd\u0263
+p706
+Vw\u0259\u0301\u0263
+p707
+ssV3 he 3
+p708
+(dp709
+g249
+Vrà\u014b\u0265
+p710
+ssV102 kai 1
+p711
+(dp712
+g703
+V-\u0103
+p713
+sg704
+Vá\u0265\u0103
+p714
+sg706
+Vw\u0259\u0301\u0263\u0103
+p715
+ssV155 he 2
+p716
+(dp717
+g93
+Vwrá\u014b\u0283
+p718
+ssV3 he 4
+p719
+(dp720
+g249
+Và\u014b\u0265
+p721
+ssV77 he 3
+p722
+(dp723
+g204
+Vwàn\u0103
+p724
+ssV128 he 2
+p725
+(dp726
+g566
+Vwr\u0259\u0301t\u0283
+p727
+sg568
+Vwr\u0259\u0301p\u0283
+p728
+sg570
+Vwrjáp\u0283
+p729
+sg572
+Vwrját\u0283
+p730
+sg574
+Vwr\u0259\u0301\u0263\u0283
+p731
+sg576
+Vwr\u0259\u0301l\u0283
+p732
+sg578
+V[wr\u0259\u0301kj]\u0283
+p733
+sg580
+Vwr\u0259\u0301k\u0283
+p734
+ssV58 kai 4
+p735
+(dp736
+g77
+V-\u0103
+p737
+sV\u01dd\u014bw
+p738
+Vj\u0259\u0300\u014bw\u0103
+p739
+ssV58 kai 2
+p740
+(dp741
+g77
+V-\u0103
+p742
+sg738
+Vr\u0259\u0300\u014bw\u0103
+p743
+ssV58 kai 3
+p744
+(dp745
+g77
+V\u0259\u0300m\u0103
+p746
+sg738
+V\u0259\u0300\u014bw\u0103
+p747
+sV\u01dd\u014b
+p748
+Vw\u0259\u0300\u014b\u0103
+p749
+ssV120 he 3
+p750
+(dp751
+g662
+Vw\u0259\u0300l\u0283
+p752
+sV\u01ddp
+p753
+Vw\u0259\u0300p\u0283
+p754
+sV\u01ddt
+p755
+Vw\u0259\u0300t\u0283
+p756
+ssV113 kai 1
+p757
+(dp758
+g77
+V-\u0283
+p759
+sg79
+Vá\u014b\u0265\u0283
+p760
+ssV113 kai 3
+p761
+(dp762
+g77
+V\u0259\u0300m\u0283
+p763
+sg738
+V\u0259\u0300\u014bw\u0283
+p764
+sg748
+Vw\u0259\u0300\u014b\u0283
+p765
+ssV113 kai 2
+p766
+(dp767
+g77
+V-\u0283
+p768
+sg738
+Vr\u0259\u0300\u014bw\u0283
+p769
+ssV113 kai 4
+p770
+(dp771
+g77
+V-\u0283
+p772
+sg738
+Vj\u0259\u0300\u014bw\u0283
+p773
+ssV40 kai 4
+p774
+(dp775
+g91
+Vjà\u014bj
+p776
+sg93
+Vrjà\u014b
+p777
+ssV111 kai 3
+p778
+(dp779
+g501
+Vàm\u0103
+p780
+ssV40 kai 3
+p781
+(dp782
+g91
+V(r)à\u014bj
+p783
+sg93
+Vrà\u014b
+p784
+ssV40 kai 2
+p785
+(dp786
+g91
+Vrà\u014bj
+p787
+sg93
+Vrá\u014b
+p788
+ssV39 kai 1
+p789
+(dp790
+g151
+Vá\u014b
+p791
+ssV42 he 3
+p792
+(dp793
+g245
+Vwà\u014bj
+p794
+ssV42 he 4
+p795
+(dp796
+g245
+Vwjà\u014bj
+p797
+ssV37 kai 3
+p798
+(dp799
+g622
+Và:\u0263
+p800
+sg624
+Và:l
+p801
+ssV37 kai 2
+p802
+(dp803
+g622
+Vrá\u0263
+p804
+sg624
+Vrál
+p805
+ssV25 kai 1
+p806
+(dp807
+g226
+Ván
+p808
+ssV105 kai 1
+p809
+(dp810
+g27
+V\u0259\u0301m\u0103
+p811
+ssV37 kai 4
+p812
+(dp813
+g622
+Vjà:\u0263
+p814
+sg624
+Vjà:l
+p815
+ssV115 he 3
+p816
+(dp817
+g249
+Vrà\u014b\u0265\u0283
+p818
+ssV185 he 1
+p819
+(dp820
+Vat
+p821
+Vwát
+p822
+ssV76 kai 3
+p823
+(dp824
+g280
+V\u0259\u0300n\u0103
+p825
+ssV40 he 4
+p826
+(dp827
+g91
+Vwjà\u014bj
+p828
+ssV40 he 2
+p829
+(dp830
+g93
+Vwrá\u014b
+p831
+ssV40 he 3
+p832
+(dp833
+g91
+Vw(r)à\u014bj
+p834
+sg93
+Vwrà\u014b
+p835
+ssV80 he 1
+p836
+(dp837
+g226
+Vwán\u0103
+p838
+ssV14 he 2
+p839
+(dp840
+g576
+Vwr\u0259\u0301l
+p841
+sg574
+Vwr\u0259\u0301\u0263
+p842
+ssV158 he 4
+p843
+(dp844
+g488
+Vwáj\u0283
+p845
+sg490
+Vwá\u014bj\u0283
+p846
+ssV79 kai 1
+p847
+(dp848
+V\u01ddn
+p849
+V\u0259\u0301n\u0103
+p850
+ssV56 kai 3
+p851
+(dp852
+g501
+Vàm
+p853
+ssV8 he 3
+p854
+(dp855
+g662
+Vw\u0259\u0300l
+p856
+ssV91 he 1
+p857
+(dp858
+g55
+Vwál\u0103
+p859
+ssV92 kai 2
+p860
+(dp861
+g622
+Vrá\u0263\u0103
+p862
+sg624
+Vrál\u0103
+p863
+ssV92 kai 3
+p864
+(dp865
+g622
+Và:\u0263\u0103
+p866
+sg624
+Và:l\u0103
+p867
+ssV164 kai 3
+p868
+(dp869
+g174
+V(r)\u0259\u0300m\u0283
+p870
+ssV164 kai 2
+p871
+(dp872
+g174
+Vr\u0259\u0300m\u0283
+p873
+ssV164 kai 1
+p874
+(dp875
+g174
+V- \u0283
+p876
+ssV155 he 3
+p877
+(dp878
+g91
+Vw(r)à\u014bj\u0283
+p879
+sg93
+Vwrà\u014b\u0283
+p880
+ssV155 he 4
+p881
+(dp882
+g91
+Vwjà\u014bj\u0283
+p883
+ssV59 kai 3
+p884
+(dp885
+g249
+V-\u0103
+p886
+ssV164 kai 4
+p887
+(dp888
+g174
+Vj\u0259\u0300m\u0283
+p889
+ssV12 he 4
+p890
+(dp891
+g66
+Vwj\u0259\u0301l
+p892
+sg68
+Vwáj
+p893
+sg70
+Vw\u0259\u0301j
+p894
+ssV65 he 4
+p895
+(dp896
+g525
+V-\u0103
+p897
+ssV57 he 3
+p898
+(dp899
+g234
+Vwàm
+p900
+ssV179 kai 2
+p901
+(dp902
+V\u01ddkj
+p903
+Vr\u0259\u0300kj
+p904
+ssV182 kai 3
+p905
+(dp906
+Vat
+p907
+Vàt
+p908
+ssV134 he 3
+p909
+(dp910
+V\u01ddn
+p911
+Vwj\u0259\u0300n\u0283
+p912
+ssV99 kai 4
+p913
+(dp914
+V\u01dd\u014b
+p915
+Vj\u0259\u0300\u014b\u0103
+p916
+ssV99 kai 3
+p917
+(dp918
+g915
+V\u0259\u0300\u014b\u0103
+p919
+ssV134 he 4
+p920
+(dp921
+g911
+Vwj\u0259\u0300n\u0283
+p922
+ssV154 he 1
+p923
+(dp924
+g151
+Vwá\u014b\u0283
+p925
+ssV163 kai 4
+p926
+(dp927
+V\u01ddkw
+p928
+Vj\u0259\u0300kw\u0283
+p929
+sV\u01ddw
+p930
+Vj\u0259\u0300w\u0283
+p931
+ssV117 he 4
+p932
+(dp933
+Vakj
+p934
+Vwjàkj\u0283
+p935
+sg97
+Vwjàj\u0283
+p936
+sg99
+Vwjàl\u0283
+p937
+ssV117 he 2
+p938
+(dp939
+g99
+V-\u0283
+p940
+ssV117 he 3
+p941
+(dp942
+g934
+Vwàkj\u0283
+p943
+sg97
+Vwàj\u0283
+p944
+sg99
+Vwàl\u0283
+p945
+ssV95 kai 3
+p946
+(dp947
+g91
+V(r)à\u014bj\u0103
+p948
+sg93
+Vrà\u014b\u0103
+p949
+ssV95 kai 2
+p950
+(dp951
+g91
+Vrà\u014bj\u0103
+p952
+sg93
+Vrá\u014b\u0103
+p953
+ssV95 kai 4
+p954
+(dp955
+g91
+Vjà\u014bj\u0103
+p956
+sg93
+Vrjà\u014b\u0103
+p957
+ssV97 he 4
+p958
+(dp959
+g245
+Vwjà\u014bj\u0103
+p960
+ssV101 kai 2
+p961
+(dp962
+V\u01ddw
+p963
+Vr\u0259\u0300w\u0103
+p964
+sVa\u0265
+p965
+Vrá\u0265\u0103
+p966
+ssV101 kai 3
+p967
+(dp968
+g963
+V\u0259\u0300w\u0103
+p969
+sg965
+Vrá\u0265\u0103
+p970
+sV\u01dd\u0263
+p971
+Vw\u0259\u0300\u0263\u0103
+p972
+ssV101 kai 4
+p973
+(dp974
+g963
+Vj\u0259\u0300w\u0103
+p975
+sg965
+Vjá\u0265\u0103
+p976
+sg971
+Vw\u0259\u0300\u0263\u0103
+p977
+ssV29 kai 4
+p978
+(dp979
+g533
+Vj\u0259\u0301n
+p980
+sg535
+V\u0259\u0301\u014bj
+p981
+sg537
+Vján
+p982
+ssV97 he 3
+p983
+(dp984
+g245
+Vwà\u014bj\u0103
+p985
+ssV7 kai 2
+p986
+(dp987
+g329
+Vr\u0259\u0300\u0263
+p988
+ssV35 kai 1
+p989
+(dp990
+g378
+Vál
+p991
+ssV144 he 4
+p992
+(dp993
+g533
+Vwj\u0259\u0301n\u0283
+p994
+sg535
+Vw\u0259\u0301\u014bj\u0283
+p995
+sg537
+Vwján\u0283
+p996
+ssV144 he 3
+p997
+(dp998
+g533
+Vwj\u0259\u0301n\u0283
+p999
+sg535
+Vw\u0259\u0301\u014bj\u0283
+p1000
+ssV179 he 2
+p1001
+(dp1002
+g903
+Vwr\u0259\u0300kj
+p1003
+ssV38 he 3
+p1004
+(dp1005
+g600
+Vwà\u014b
+p1006
+ssV38 he 2
+p1007
+(dp1008
+g600
+Vwrà\u014b
+p1009
+ssV1 kai 3
+p1010
+(dp1011
+g77
+V\u0259\u0300m
+p1012
+sg738
+V\u0259\u0300\u014bw
+p1013
+sg748
+Vw\u0259\u0300\u014b
+p1014
+ssV1 kai 2
+p1015
+(dp1016
+g77
+g156
+sg738
+Vr\u0259\u0300\u014bw
+p1017
+ssV1 kai 1
+p1018
+(dp1019
+g77
+g156
+sg79
+Vá\u014b\u0265
+p1020
+ssV82 kai 2
+p1021
+(dp1022
+g155
+Vrán\u0103
+p1023
+ssV82 kai 1
+p1024
+(dp1025
+g155
+V-\u0103
+p1026
+ssV1 kai 4
+p1027
+(dp1028
+g77
+g156
+sg738
+Vj\u0259\u0300\u014bw
+p1029
+ssV38 kai 4
+p1030
+(dp1031
+g600
+Vjà\u014b
+p1032
+ssV38 kai 2
+p1033
+(dp1034
+g600
+Vrà\u014b
+p1035
+ssV38 kai 3
+p1036
+(dp1037
+g600
+Và\u014b
+p1038
+ssV196 he 3
+p1039
+(dp1040
+V\u01ddk
+p1041
+Vw\u0259\u0300k
+p1042
+ssV100 he 1
+p1043
+(dp1044
+g230
+Vw\u0259\u0301\u014b\u0103
+p1045
+ssV142 he 2
+p1046
+(dp1047
+g155
+Vwrán\u0283
+p1048
+ssV70 he 2
+p1049
+(dp1050
+g576
+Vwr\u0259\u0301l\u0103
+p1051
+sg574
+Vwr\u0259\u0301\u0263\u0103
+p1052
+ssV167 kai 3
+p1053
+(dp1054
+g59
+V(r)àm\u0283
+p1055
+ssV167 kai 4
+p1056
+(dp1057
+g59
+Vjàm\u0283
+p1058
+ssV91 kai 3
+p1059
+(dp1060
+g55
+Và:l\u0103
+p1061
+ssV180 he 3
+p1062
+(dp1063
+V\u01ddt
+p1064
+Vw\u0259\u0300t
+p1065
+ssV91 kai 1
+p1066
+(dp1067
+g55
+Vál\u0103
+p1068
+ssV129 he 2
+p1069
+(dp1070
+Vap
+p1071
+Vwráp\u0283
+p1072
+sVat
+p1073
+Vwrát\u0283
+p1074
+ssV124 kai 4
+p1075
+(dp1076
+g607
+Vj\u0259\u0301t\u0283
+p1077
+sg609
+Vj\u0259\u0301p\u0283
+p1078
+sg68
+Váj\u0283
+p1079
+sg66
+Vj\u0259\u0301l\u0283
+p1080
+sg613
+V\u0259\u0301j\u0283
+p1081
+sg70
+V\u0259\u0301j\u0283
+p1082
+ssV4 kai 2
+p1083
+(dp1084
+g694
+Vr\u0259\u0301\u014bw
+p1085
+sg696
+Vrá\u014b\u0265
+p1086
+ssV205 kai 3
+p1087
+(dp1088
+Vap
+p1089
+Vàp
+p1090
+ssV81 he 1
+p1091
+(dp1092
+g618
+Vwán\u0103
+p1093
+ssV15 he 1
+p1094
+(dp1095
+g162
+Vw\u0259\u0301l
+p1096
+sg168
+Vw\u0259\u0301:\u0263
+p1097
+ssV203 kai 2
+p1098
+(dp1099
+Vap
+p1100
+Vrjáp
+p1101
+sV\u01ddp
+p1102
+Vr\u0259\u0301p
+p1103
+ssV121 he 3
+p1104
+(dp1105
+g525
+V-\u0283
+p1106
+sg346
+Và\u0265\u0283
+p1107
+sVak
+p1108
+Vwàk\u0283
+p1109
+sVak\u0265
+p1110
+Vàk\u0265\u0283
+p1111
+ssV121 he 2
+p1112
+(dp1113
+g346
+Vrà\u0265\u0283
+p1114
+sg1110
+Vràk\u0265\u0283
+p1115
+ssV19 kai 2
+p1116
+(dp1117
+V\u01ddn
+p1118
+Vj\u0259\u0300n
+p1119
+ssV121 he 4
+p1120
+(dp1121
+g525
+V-\u0283
+p1122
+sg346
+Vjà\u0265\u0283
+p1123
+ssV152 he 2
+p1124
+(dp1125
+g622
+Vwrá\u0263\u0283
+p1126
+sg624
+Vwrál\u0283
+p1127
+sVak
+p1128
+Vwrák\u0283
+p1129
+ssV161 kai 2
+p1130
+(dp1131
+V\u01ddkw
+p1132
+Vr\u0259\u0300kw\u0283
+p1133
+sg963
+Vr\u0259\u0300w\u0283
+p1134
+sg965
+Vrá\u0265\u0283
+p1135
+sVak\u0265
+p1136
+Vrák\u0265\u0283
+p1137
+ssV161 kai 3
+p1138
+(dp1139
+g1132
+V\u0259\u0300kw\u0283
+p1140
+sg963
+V\u0259\u0300w\u0283
+p1141
+sg965
+Vrá\u0265\u0283
+p1142
+sV\u01ddk
+p1143
+Vw\u0259\u0300k\u0283
+p1144
+sg971
+Vw\u0259\u0300\u0263\u0283
+p1145
+sg1136
+Vrák\u0265\u0283
+p1146
+ssV73 kai 3
+p1147
+(dp1148
+g382
+Vj\u0259\u0300n\u0103
+p1149
+sg384
+Vj\u0259\u0300n\u0103
+p1150
+ssV73 kai 2
+p1151
+(dp1152
+g382
+Vj\u0259\u0300n\u0103
+p1153
+sg384
+Vj\u0259\u0300n\u0103
+p1154
+ssV66 he 4
+p1155
+(dp1156
+g344
+Vwà\u0263\u0103
+p1157
+sg346
+Vjà\u0265\u0103
+p1158
+ssV139 kai 1
+p1159
+(dp1160
+g849
+V\u0259\u0301n\u0283
+p1161
+ssV66 he 3
+p1162
+(dp1163
+g344
+Vwà\u0263\u0103
+p1164
+sg346
+Và\u0265\u0103
+p1165
+ssV73 kai 4
+p1166
+(dp1167
+g382
+Vj\u0259\u0300n\u0103
+p1168
+sg384
+Vj\u0259\u0300n\u0103
+p1169
+ssV66 he 2
+p1170
+(dp1171
+g344
+Vwà\u0263\u0103
+p1172
+sg346
+Vrà\u0265\u0103
+p1173
+ssV51 kai 1
+p1174
+(dp1175
+Vam
+p1176
+Vám
+p1177
+ssV177 kai 3
+p1178
+(dp1179
+g268
+V(r)j\u0259\u0300t
+p1180
+sg270
+V\u0259\u0300kj
+p1181
+ssV177 kai 4
+p1182
+(dp1183
+g268
+Vj\u0259\u0300t
+p1184
+sg270
+Vj\u0259\u0300kj
+p1185
+ssV98 kai 4
+p1186
+(dp1187
+g488
+Váj\u0103
+p1188
+sg490
+Vá\u014bj\u0103
+p1189
+ssV49 kai 1
+p1190
+(dp1191
+g174
+V- 
+p1192
+ssV49 kai 2
+p1193
+(dp1194
+g174
+Vr\u0259\u0300m
+p1195
+ssV49 kai 3
+p1196
+(dp1197
+g174
+V(r)\u0259\u0300m
+p1198
+ssV49 kai 4
+p1199
+(dp1200
+g174
+Vj\u0259\u0300m
+p1201
+ssV115 he 4
+p1202
+(dp1203
+g249
+Và\u014b\u0265\u0283
+p1204
+ssV48 kai 4
+p1205
+(dp1206
+g930
+Vj\u0259\u0300w
+p1207
+ssV70 kai 2
+p1208
+(dp1209
+g576
+Vr\u0259\u0301l\u0103
+p1210
+sg574
+Vr\u0259\u0301\u0263\u0103
+p1211
+sg562
+Vr\u0259\u0301j\u0103
+p1212
+ssV70 kai 3
+p1213
+(dp1214
+g562
+Vr\u0259\u0301j\u0103
+p1215
+ssV160 kai 1
+p1216
+(dp1217
+g230
+V\u0259\u0301\u014b\u0283
+p1218
+ssV37 he 2
+p1219
+(dp1220
+g622
+Vwrá\u0263
+p1221
+sg624
+Vwrál
+p1222
+ssV131 kai 4
+p1223
+(dp1224
+g213
+V\u0259\u0301\u0263\u0283
+p1225
+ssV131 kai 1
+p1226
+(dp1227
+g211
+V\u0259\u0301l\u0283
+p1228
+sV\u01ddk
+p1229
+V\u0259\u0301k\u0283
+p1230
+sV\u01ddp
+p1231
+V\u0259\u0301o\u0283
+p1232
+sg213
+V\u0259\u0301\u0263\u0283
+p1233
+sV\u01ddt
+p1234
+V\u0259\u0301t\u0283
+p1235
+ssV131 kai 3
+p1236
+(dp1237
+g211
+V\u0259\u0301l\u0283
+p1238
+ssV133 kai 3
+p1239
+(dp1240
+g382
+Vj\u0259\u0300n\u0283
+p1241
+sg384
+Vj\u0259\u0300n\u0283
+p1242
+ssV133 kai 2
+p1243
+(dp1244
+g382
+Vj\u0259\u0300n\u0283
+p1245
+sg384
+Vj\u0259\u0300n\u0283
+p1246
+ssV133 kai 4
+p1247
+(dp1248
+g382
+Vj\u0259\u0300n\u0283
+p1249
+sg384
+Vj\u0259\u0300n\u0283
+p1250
+ssV30 he 3
+p1251
+(dp1252
+g428
+Vwjàn
+p1253
+ssV30 he 2
+p1254
+(dp1255
+g428
+Vwràn
+p1256
+ssV30 he 4
+p1257
+(dp1258
+g428
+Vwjàn
+p1259
+ssV193 kai 2
+p1260
+(dp1261
+g39
+Vrákj
+p1262
+sg41
+Vrják
+p1263
+sg43
+Vr\u0259\u0301k
+p1264
+ssV3 kai 4
+p1265
+(dp1266
+g249
+g156
+ssV158 kai 4
+p1267
+(dp1268
+g488
+Váj\u0283
+p1269
+sg490
+Vá\u014bj\u0283
+p1270
+ssV125 kai 4
+p1271
+(dp1272
+g107
+Vjàp\u0283
+p1273
+sg109
+Vjàt\u0283
+p1274
+ssV116 kai 2
+p1275
+(dp1276
+g694
+Vr\u0259\u0301\u014bw\u0283
+p1277
+sg696
+Vrá\u014b\u0265\u0283
+p1278
+ssV19 he 3
+p1279
+(dp1280
+g1118
+Vwj\u0259\u0300n
+p1281
+ssV18 he 3
+p1282
+(dp1283
+g911
+Vwj\u0259\u0300n
+p1284
+ssV18 he 4
+p1285
+(dp1286
+g911
+Vwj\u0259\u0300n
+p1287
+ssV53 kai 4
+p1288
+(dp1289
+V\u01ddm
+p1290
+Vj\u0259\u0301m
+p1291
+sVam
+p1292
+Vjám
+p1293
+ssV41 kai 2
+p1294
+(dp1295
+g83
+Vrákj
+p1296
+sg85
+Vr\u0259\u0301\u014b
+p1297
+sg87
+Vrá\u014bj
+p1298
+ssV168 kai 4
+p1299
+(dp1300
+g1290
+Vj\u0259\u0301m\u0283
+p1301
+sg1292
+Vjám\u0283
+p1302
+ssV168 kai 3
+p1303
+(dp1304
+g1290
+Vj\u0259\u0301m\u0283
+p1305
+ssV53 kai 3
+p1306
+(dp1307
+g1290
+Vj\u0259\u0301m
+p1308
+ssV64 kai 3
+p1309
+(dp1310
+g662
+V\u0259\u0300l\u0103
+p1311
+ssV183 he 1
+p1312
+(dp1313
+g511
+Vw\u0259\u0301t
+p1314
+ssV143 he 2
+p1315
+(dp1316
+g644
+Vwr\u0259\u0301n\u0283
+p1317
+sg646
+Vwrján\u0283
+p1318
+ssV117 kai 4
+p1319
+(dp1320
+g934
+Vjàkj\u0283
+p1321
+sg97
+Vjàj\u0283
+p1322
+sg99
+Vjàl\u0283
+p1323
+ssV96 kai 2
+p1324
+(dp1325
+g83
+Vrákj\u0103
+p1326
+sg85
+Vr\u0259\u0301\u014b\u0103
+p1327
+sg87
+Vrá\u014bj\u0103
+p1328
+ssV74 he 4
+p1329
+(dp1330
+g911
+Vwj\u0259\u0300n\u0103
+p1331
+ssV117 kai 3
+p1332
+(dp1333
+g934
+Vàkj\u0283
+p1334
+sg97
+Vàj\u0283
+p1335
+sg99
+Vàl\u0283
+p1336
+ssV117 kai 2
+p1337
+(dp1338
+g934
+Vràkj\u0283
+p1339
+sg97
+Vràj\u0283
+p1340
+sg99
+Vràl\u0283
+p1341
+ssV72 kai 3
+p1342
+(dp1343
+g211
+V\u0259\u0301l\u0103
+p1344
+ssV118 kai 2
+p1345
+(dp1346
+g403
+V\u0259\u0300kj\u0283
+p1347
+sV\u01ddj
+p1348
+Vr\u0259\u0300j\u0283
+p1349
+ssV118 kai 3
+p1350
+(dp1351
+g403
+Vj\u0259\u0300kj\u0283
+p1352
+sg417
+Vwr\u0259\u0300k\u0283
+p1353
+sg1348
+V\u0259\u0300j\u0283
+p1354
+ssV115 kai 1
+p1355
+(dp1356
+g249
+V-\u0283
+p1357
+ssV118 kai 1
+p1358
+(dp1359
+g403
+Vr\u0259\u0300kj\u0283
+p1360
+ssV59 he 4
+p1361
+(dp1362
+g249
+Và\u014b\u0265\u0103
+p1363
+ssV118 kai 4
+p1364
+(dp1365
+g1348
+Vj\u0259\u0300j\u0283
+p1366
+ssV115 kai 4
+p1367
+(dp1368
+g249
+V-\u0283
+p1369
+ssV72 kai 1
+p1370
+(dp1371
+g211
+V\u0259\u0301l\u0103
+p1372
+sg213
+V\u0259\u0301\u0263\u0103
+p1373
+ssV23 he 1
+p1374
+(dp1375
+g394
+Vw\u0259\u0301n
+p1376
+ssV94 he 1
+p1377
+(dp1378
+g151
+Vwá\u014b\u0103
+p1379
+ssV87 kai 4
+p1380
+(dp1381
+g19
+Vjàw\u0103
+p1382
+ssV87 kai 3
+p1383
+(dp1384
+g19
+Vàw\u0103
+p1385
+ssV127 kai 2
+p1386
+(dp1387
+g13
+Vráj\u0283
+p1388
+ssV85 he 4
+p1389
+(dp1390
+g428
+Vwjàn\u0103
+p1391
+ssV65 kai 4
+p1392
+(dp1393
+g525
+Vjà\u0263\u0103
+p1394
+ssV65 kai 2
+p1395
+(dp1396
+g525
+Vrà\u0263\u0103
+p1397
+ssV65 kai 3
+p1398
+(dp1399
+g525
+Và\u0263\u0103
+p1400
+ssV85 he 3
+p1401
+(dp1402
+g428
+Vwjàn\u0103
+p1403
+ssV85 he 2
+p1404
+(dp1405
+g428
+Vwràn\u0103
+p1406
+ssV175 kai 4
+p1407
+(dp1408
+Vak\u0265
+p1409
+Vjàk\u0265
+p1410
+ssV175 kai 3
+p1411
+(dp1412
+g1409
+Vràk\u0265
+p1413
+ssV122 kai 4
+p1414
+(dp1415
+Vak
+p1416
+Vjàk\u0283
+p1417
+ssV126 he 1
+p1418
+(dp1419
+g284
+Vwáp\u0283
+p1420
+sg286
+Vwát\u0283
+p1421
+ssV122 kai 3
+p1422
+(dp1423
+g1416
+Vàk\u0283
+p1424
+ssV122 kai 2
+p1425
+(dp1426
+g1416
+Vràk\u0283
+p1427
+ssV143 kai 2
+p1428
+(dp1429
+g644
+Vr\u0259\u0301n\u0283
+p1430
+sV\u01dd\u014bj
+p1431
+Vr\u0259\u0301\u014bj\u0283
+p1432
+sg646
+Vrján\u0283
+p1433
+ssV92 he 2
+p1434
+(dp1435
+g622
+Vwrá\u0263\u0103
+p1436
+sg624
+Vwrál\u0103
+p1437
+ssV186 he 2
+p1438
+(dp1439
+V\u01ddt
+p1440
+Vwr\u0259\u0301t
+p1441
+sVat
+p1442
+Vwrát
+p1443
+ssV196 kai 2
+p1444
+(dp1445
+g1041
+Vr\u0259\u0300k
+p1446
+ssV71 he 1
+p1447
+(dp1448
+g162
+Vw\u0259\u0301l\u0103
+p1449
+sg168
+Vw\u0259\u0301:\u0263\u0103
+p1450
+ssV121 kai 2
+p1451
+(dp1452
+g525
+Vrà\u0263\u0283
+p1453
+ssV109 kai 2
+p1454
+(dp1455
+g448
+Vr\u0259\u0301m\u0103
+p1456
+sg450
+Vrjám\u0103
+p1457
+ssV109 kai 3
+p1458
+(dp1459
+g448
+Vr\u0259\u0301m\u0103
+p1460
+ssV121 kai 3
+p1461
+(dp1462
+g525
+Và\u0263\u0283
+p1463
+ssV6 kai 4
+p1464
+(dp1465
+g1348
+Vj\u0259\u0300j
+p1466
+ssV6 kai 2
+p1467
+(dp1468
+g1348
+Vr\u0259\u0300j
+p1469
+ssV6 kai 3
+p1470
+(dp1471
+g1348
+V\u0259\u0300j
+p1472
+ssV2 kai 1
+p1473
+(dp1474
+g31
+V\u0259\u0301\u014bw
+p1475
+ssV33 kai 2
+p1476
+(dp1477
+g258
+Vr\u0259\u0301w
+p1478
+sg260
+Vráw
+p1479
+ssV5 he 4
+p1480
+(dp1481
+g97
+Vwjàj
+p1482
+sg99
+Vwjàl
+p1483
+ssV187 he 2
+p1484
+(dp1485
+Vat
+p1486
+Vwrját
+p1487
+ssV5 he 2
+p1488
+(dp1489
+g99
+g156
+ssV5 he 3
+p1490
+(dp1491
+g97
+Vwàj
+p1492
+sg99
+Vwàl
+p1493
+ssV39 he 1
+p1494
+(dp1495
+g151
+Vwá\u014b
+p1496
+ssV194 kai 4
+p1497
+(dp1498
+Vakj
+p1499
+Vjàkj
+p1500
+sVak
+p1501
+Vjàk
+p1502
+ssV192 he 2
+p1503
+(dp1504
+Vak
+p1505
+Vwrák
+p1506
+ssV194 kai 3
+p1507
+(dp1508
+g1499
+Vàkj
+p1509
+sg1501
+Vràk
+p1510
+ssV108 kai 4
+p1511
+(dp1512
+g1290
+Vj\u0259\u0301m\u0103
+p1513
+sg1292
+Vjám\u0103
+p1514
+ssV85 kai 2
+p1515
+(dp1516
+g428
+V[ràn]\u0103
+p1517
+ssV85 kai 3
+p1518
+(dp1519
+g428
+Vàn\u0103
+p1520
+ssV85 kai 4
+p1521
+(dp1522
+g428
+Vjàn\u0103
+p1523
+ssV108 kai 3
+p1524
+(dp1525
+g1290
+Vj\u0259\u0301m\u0103
+p1526
+ssV9 kai 3
+p1527
+(dp1528
+g525
+Và\u0263
+p1529
+ssV9 kai 2
+p1530
+(dp1531
+g525
+Vrà\u0263
+p1532
+ssV151 he 1
+p1533
+(dp1534
+g55
+Vwál\u0283
+p1535
+ssV9 kai 4
+p1536
+(dp1537
+g525
+Vjà\u0263
+p1538
+ssV159 kai 3
+p1539
+(dp1540
+g915
+V\u0259\u0300\u014b\u0283
+p1541
+ssV152 kai 2
+p1542
+(dp1543
+g622
+Vrá\u0263\u0283
+p1544
+sg624
+Vrál\u0283
+p1545
+sg1128
+Vrák\u0283
+p1546
+ssV152 kai 3
+p1547
+(dp1548
+g622
+Và:\u0263\u0283
+p1549
+sg624
+Và:l\u0283
+p1550
+sg1128
+Và:k\u0283
+p1551
+ssV152 kai 4
+p1552
+(dp1553
+g622
+Vjà:\u0263\u0283
+p1554
+sg624
+Vjà:l\u0283
+p1555
+sg1128
+Vjà:k\u0283
+p1556
+ssV22 kai 3
+p1557
+(dp1558
+g204
+Vàn
+p1559
+ssV159 kai 4
+p1560
+(dp1561
+g915
+Vj\u0259\u0300\u014b\u0283
+p1562
+ssV26 he 1
+p1563
+(dp1564
+g618
+Vwán
+p1565
+ssV194 he 4
+p1566
+(dp1567
+g1499
+Vwàkj
+p1568
+ssV157 he 3
+p1569
+(dp1570
+g245
+Vwà\u014bj\u0283
+p1571
+ssV157 he 4
+p1572
+(dp1573
+g245
+Vwjà\u014bj\u0283
+p1574
+ssV182 he 3
+p1575
+(dp1576
+g907
+Vwàt
+p1577
+ssV195 he 4
+p1578
+(dp1579
+Vakj
+p1580
+Vwákj
+p1581
+ssV190 he 3
+p1582
+(dp1583
+g120
+Vwàk
+p1584
+ssV174 kai 1
+p1585
+(dp1586
+V\u01ddkw
+p1587
+V\u0259\u0301kw
+p1588
+sVakw
+p1589
+Vwákw
+p1590
+ssV6 he 4
+p1591
+(dp1592
+g401
+Vwj\u0259\u0300l
+p1593
+ssV178 he 3
+p1594
+(dp1595
+V\u01ddkj
+p1596
+Vwj\u0259\u0300kj
+p1597
+ssV196 kai 3
+p1598
+(dp1599
+g1041
+V\u0259\u0300k
+p1600
+ssV196 kai 4
+p1601
+(dp1602
+g1041
+Vj\u0259\u0300k
+p1603
+ssV178 he 4
+p1604
+(dp1605
+g1596
+Vwj\u0259\u0300kj
+p1606
+ssV27 he 2
+p1607
+(dp1608
+g155
+Vwrán
+p1609
+ssV41 he 2
+p1610
+(dp1611
+g83
+Vwrákj
+p1612
+sg85
+Vwr\u0259\u0301\u014b
+p1613
+sg87
+Vwrá\u014bj
+p1614
+ssV69 kai 2
+p1615
+(dp1616
+g13
+Vráj\u0103
+p1617
+ssV162 kai 1
+p1618
+(dp1619
+Vak\u0265
+p1620
+Vák\u0265\u0283
+p1621
+sg703
+V-\u0283
+p1622
+sg704
+Vá\u0265\u0283
+p1623
+sV\u01ddk
+p1624
+Vw\u0259\u0301k\u0283
+p1625
+sg706
+Vw\u0259\u0301\u0263\u0283
+p1626
+ssV186 kai 2
+p1627
+(dp1628
+g1440
+Vr\u0259\u0301t
+p1629
+sg1442
+Vrát
+p1630
+sV\u01ddkj
+p1631
+Vr\u0259\u0301kj
+p1632
+ssV84 kai 4
+p1633
+(dp1634
+g533
+Vj\u0259\u0301n\u0103
+p1635
+sg535
+V\u0259\u0301\u014bj\u0103
+p1636
+sg537
+Vján\u0103
+p1637
+ssV74 he 3
+p1638
+(dp1639
+g911
+Vwj\u0259\u0300n\u0103
+p1640
+ssV140 kai 1
+p1641
+(dp1642
+g226
+Ván\u0283
+p1643
+ssV100 kai 1
+p1644
+(dp1645
+g230
+V\u0259\u0301\u014b\u0103
+p1646
+ssV122 he 4
+p1647
+(dp1648
+g344
+Vwà\u0263\u0283
+p1649
+ssV122 he 2
+p1650
+(dp1651
+g344
+Vwà\u0263\u0283
+p1652
+ssV122 he 3
+p1653
+(dp1654
+g344
+Vwà\u0263\u0283
+p1655
+ssV31 kai 4
+p1656
+(dp1657
+g144
+Vj\u0259\u0301w
+p1658
+sg147
+Vjáw
+p1659
+ssV17 kai 4
+p1660
+(dp1661
+g382
+Vj\u0259\u0300n
+p1662
+sg384
+Vj\u0259\u0300n
+p1663
+ssV17 kai 3
+p1664
+(dp1665
+g382
+Vj\u0259\u0300n
+p1666
+sg384
+Vj\u0259\u0300n
+p1667
+ssV17 kai 2
+p1668
+(dp1669
+g382
+Vj\u0259\u0300n
+p1670
+sg384
+Vj\u0259\u0300n
+p1671
+ssV95 he 2
+p1672
+(dp1673
+g93
+Vwrá\u014b\u0103
+p1674
+ssV95 he 3
+p1675
+(dp1676
+g91
+Vw(r)à\u014bj\u0103
+p1677
+sg93
+Vwrà\u014b\u0103
+p1678
+ssV95 he 4
+p1679
+(dp1680
+g91
+Vwjà\u014bj\u0103
+p1681
+ssV34 kai 1
+p1682
+(dp1683
+g299
+V\u0259\u0301w
+p1684
+sg301
+Váw
+p1685
+ssV153 he 2
+p1686
+(dp1687
+g600
+Vwrà\u014b\u0283
+p1688
+ssV153 he 3
+p1689
+(dp1690
+g600
+Vwà\u014b\u0283
+p1691
+ssV73 he 3
+p1692
+(dp1693
+g382
+Vwj\u0259\u0300n\u0103
+p1694
+sg384
+Vwj\u0259\u0300n\u0103
+p1695
+ssV107 kai 3
+p1696
+(dp1697
+g59
+V(r)àm\u0103
+p1698
+ssV44 kai 3
+p1699
+(dp1700
+g915
+V\u0259\u0300\u014b
+p1701
+ssV43 he 4
+p1702
+(dp1703
+g488
+Vwáj
+p1704
+sg490
+Vwá\u014bj
+p1705
+ssV44 kai 4
+p1706
+(dp1707
+g915
+Vj\u0259\u0300\u014b
+p1708
+ssV107 kai 4
+p1709
+(dp1710
+g59
+Vjàm\u0103
+p1711
+ssV45 he 1
+p1712
+(dp1713
+g230
+Vw\u0259\u0301\u014b
+p1714
+ssV195 kai 4
+p1715
+(dp1716
+V\u01ddkw
+p1717
+Vj\u0259\u0301kw
+p1718
+sg1580
+Vákj
+p1719
+sVakw
+p1720
+Vjákw
+p1721
+ssV172 he 3
+p1722
+(dp1723
+g234
+Vwàm\u0283
+p1724
+ssV133 he 3
+p1725
+(dp1726
+g382
+Vwj\u0259\u0300n\u0283
+p1727
+sg384
+Vwj\u0259\u0300n\u0283
+p1728
+ssV129 kai 2
+p1729
+(dp1730
+g1071
+Vráp\u0283
+p1731
+sg1073
+Vrát\u0283
+p1732
+ssV127 he 2
+p1733
+(dp1734
+g13
+Vwráj\u0283
+p1735
+ssV78 he 1
+p1736
+(dp1737
+g394
+Vw\u0259\u0301n\u0103
+p1738
+ssV166 kai 1
+p1739
+(dp1740
+g1176
+Vám\u0283
+p1741
+ssV83 kai 2
+p1742
+(dp1743
+g644
+Vr\u0259\u0301n\u0103
+p1744
+sg1431
+Vr\u0259\u0301\u014bj\u0103
+p1745
+sg646
+Vrján\u0103
+p1746
+ssV90 kai 1
+p1747
+(dp1748
+g378
+Vál\u0103
+p1749
+ssV192 kai 2
+p1750
+(dp1751
+g1505
+Vrák
+p1752
+ssV192 kai 3
+p1753
+(dp1754
+g1505
+Vrák
+p1755
+ssV36 kai 3
+p1756
+(dp1757
+g55
+Và:l
+p1758
+ssV36 kai 1
+p1759
+(dp1760
+g55
+Vál
+p1761
+ssV11 he 1
+p1762
+(dp1763
+g357
+Vá\u0263
+p1764
+ssV20 kai 3
+p1765
+(dp1766
+g178
+V\u0259\u0300n
+p1767
+ssV197 he 1
+p1768
+(dp1769
+g308
+Vw\u0259\u0301k
+p1770
+ssV59 he 3
+p1771
+(dp1772
+g249
+Vrà\u014b\u0265\u0103
+p1773
+ssV97 kai 4
+p1774
+(dp1775
+g245
+Vjà\u014bj\u0103
+p1776
+ssV84 he 4
+p1777
+(dp1778
+g533
+Vwj\u0259\u0301n\u0103
+p1779
+sg535
+Vw\u0259\u0301\u014bj\u0103
+p1780
+sg537
+Vwján\u0103
+p1781
+ssV84 he 3
+p1782
+(dp1783
+g533
+Vwj\u0259\u0301n\u0103
+p1784
+sg535
+Vw\u0259\u0301\u014bj\u0103
+p1785
+ssV97 kai 3
+p1786
+(dp1787
+g245
+Vjà\u014bj\u0103
+p1788
+ssV204 kai 2
+p1789
+(dp1790
+Vap
+p1791
+Vráp
+p1792
+ssV62 kai 3
+p1793
+(dp1794
+g1348
+V\u0259\u0300j\u0103
+p1795
+ssV62 kai 2
+p1796
+(dp1797
+g1348
+Vr\u0259\u0300j\u0103
+p1798
+ssV62 kai 4
+p1799
+(dp1800
+g1348
+Vj\u0259\u0300j\u0103
+p1801
+ssV120 kai 3
+p1802
+(dp1803
+g662
+V\u0259\u0300l\u0283
+p1804
+sg753
+V\u0259\u0300p\u0283
+p1805
+sg755
+V\u0259\u0300t\u0283
+p1806
+ssV83 he 2
+p1807
+(dp1808
+g644
+Vwr\u0259\u0301n\u0103
+p1809
+sg646
+Vwrján\u0103
+p1810
+ssV161 kai 4
+p1811
+(dp1812
+g1132
+Vj\u0259\u0300kw\u0283
+p1813
+sg963
+Vj\u0259\u0300w\u0283
+p1814
+sg965
+Vjá\u0265\u0283
+p1815
+sg1143
+Vw\u0259\u0300k\u0283
+p1816
+sg971
+Vw\u0259\u0300\u0263\u0283
+p1817
+sg1136
+Vják\u0265\u0283
+p1818
+ssV132 he 3
+p1819
+(dp1820
+Vap
+p1821
+Vwàp\u0283
+p1822
+sVat
+p1823
+Vwàt\u0283
+p1824
+ssV188 kai 4
+p1825
+(dp1826
+g319
+Vj\u0259\u0301t
+p1827
+sg321
+Vját
+p1828
+sg323
+V\u0259\u0301kj
+p1829
+ssV43 kai 4
+p1830
+(dp1831
+g488
+Váj
+p1832
+sg490
+Vá\u014bj
+p1833
+ssV103 kai 4
+p1834
+(dp1835
+g930
+Vj\u0259\u0300w\u0103
+p1836
+ssV72 kai 4
+p1837
+(dp1838
+g213
+V\u0259\u0301\u0263\u0103
+p1839
+ssV132 kai 3
+p1840
+(dp1841
+g1821
+Vàp\u0283
+p1842
+sg1823
+Vàt\u0283
+p1843
+ssV96 he 2
+p1844
+(dp1845
+g83
+Vwrákj\u0103
+p1846
+sg85
+Vwr\u0259\u0301\u014b\u0103
+p1847
+sg87
+Vwrá\u014bj\u0103
+p1848
+ssV25 he 1
+p1849
+(dp1850
+g226
+Vwán
+p1851
+ssV63 kai 4
+p1852
+(dp1853
+g329
+Vj\u0259\u0300\u0263\u0103
+p1854
+ssV28 kai 2
+p1855
+(dp1856
+g644
+Vr\u0259\u0301n
+p1857
+sg1431
+Vr\u0259\u0301\u014bj
+p1858
+sg646
+Vrján
+p1859
+ssV64 he 3
+p1860
+(dp1861
+g662
+Vw\u0259\u0300l\u0103
+p1862
+ssV63 kai 2
+p1863
+(dp1864
+g329
+Vr\u0259\u0300\u0263\u0103
+p1865
+ssV63 kai 3
+p1866
+(dp1867
+g329
+V\u0259\u0300\u0263\u0103
+p1868
+ssV154 kai 1
+p1869
+(dp1870
+g151
+Vá\u014b\u0283
+p1871
+ssV61 kai 2
+p1872
+(dp1873
+g97
+Vràj\u0103
+p1874
+sg99
+Vràl\u0103
+p1875
+ssV61 kai 3
+p1876
+(dp1877
+g97
+Vàj\u0103
+p1878
+sg99
+Vàl\u0103
+p1879
+ssV61 kai 4
+p1880
+(dp1881
+g97
+Vjàj\u0103
+p1882
+sg99
+Vjàl\u0103
+p1883
+ssV187 kai 2
+p1884
+(dp1885
+g1486
+Vrját
+p1886
+ssV145 kai 2
+p1887
+(dp1888
+g428
+V[ràn]\u0283
+p1889
+ssV145 kai 3
+p1890
+(dp1891
+g428
+Vàn\u0283
+p1892
+ssV145 kai 4
+p1893
+(dp1894
+g428
+Vjàn\u0283
+p1895
+ssV6 he 3
+p1896
+(dp1897
+g401
+Vwj\u0259\u0300l
+p1898
+sg413
+Vwr\u0259\u0300\u0263
+p1899
+ssV6 he 2
+p1900
+(dp1901
+g401
+Vwj\u0259\u0300l
+p1902
+ssV14 kai 2
+p1903
+(dp1904
+g576
+Vr\u0259\u0301l
+p1905
+sg574
+Vr\u0259\u0301\u0263
+p1906
+sg562
+Vr\u0259\u0301j
+p1907
+ssV14 kai 3
+p1908
+(dp1909
+g562
+Vr\u0259\u0301j
+p1910
+ssV9 he 3
+p1911
+(dp1912
+g525
+g156
+ssV9 he 4
+p1913
+(dp1914
+g525
+g156
+ssV93 kai 4
+p1915
+(dp1916
+g600
+Vjà\u014b\u0103
+p1917
+ssV75 he 3
+p1918
+(dp1919
+g178
+Vw\u0259\u0300n\u0103
+p1920
+ssV140 he 1
+p1921
+(dp1922
+g226
+Vwán\u0283
+p1923
+ssV145 he 4
+p1924
+(dp1925
+g428
+Vwjàn\u0283
+p1926
+ssV184 kai 1
+p1927
+(dp1928
+Vat
+p1929
+Vát
+p1930
+ssV54 kai 3
+p1931
+(dp1932
+g448
+Vr\u0259\u0301m
+p1933
+ssV46 kai 4
+p1934
+(dp1935
+g963
+Vj\u0259\u0300w
+p1936
+sg965
+Vjá\u0265
+p1937
+sg971
+Vw\u0259\u0300\u0263
+p1938
+ssV46 kai 3
+p1939
+(dp1940
+g963
+V\u0259\u0300w
+p1941
+sg965
+Vrá\u0265
+p1942
+sg971
+Vw\u0259\u0300\u0263
+p1943
+ssV46 kai 2
+p1944
+(dp1945
+g963
+Vr\u0259\u0300w
+p1946
+sg965
+Vrá\u0265
+p1947
+ssV3 kai 3
+p1948
+(dp1949
+g249
+g156
+ssV93 kai 3
+p1950
+(dp1951
+g600
+Và\u014b\u0103
+p1952
+ssV93 kai 2
+p1953
+(dp1954
+g600
+Vrà\u014b\u0103
+p1955
+ssV106 kai 1
+p1956
+(dp1957
+g1176
+Vám\u0103
+p1958
+ssV24 kai 1
+p1959
+(dp1960
+g849
+V\u0259\u0301n
+p1961
+ssV61 he 3
+p1962
+(dp1963
+g97
+Vwàj\u0103
+p1964
+sg99
+Vwàl\u0103
+p1965
+ssV61 he 2
+p1966
+(dp1967
+g99
+V-\u0103
+p1968
+ssV61 he 4
+p1969
+(dp1970
+g97
+Vwjàj\u0103
+p1971
+sg99
+Vwjàl\u0103
+p1972
+ssV145 he 3
+p1973
+(dp1974
+g428
+Vwjàn\u0283
+p1975
+ssV145 he 2
+p1976
+(dp1977
+g428
+Vwràn\u0283
+p1978
+ss.

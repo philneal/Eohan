@@ -1,0 +1,61 @@
+﻿{% include "top.html" %}
+<h2 class="text">Zhongyuan Yinyun</h2>
+<h2 class="text">中原音韻</h2>
+
+<table class="source">
+ <tr class="source">
+  <td class="sourcemargin">
+  </td>
+  <td class="sourcelabel">
+  </td>
+  <td class="sourcelabel">
+  </td>
+  <td class="outersourcetext">
+   <table class="sourcetext">
+    <tr class="sourcetext">
+
+{% for line in zhongyuanyinyunconcordance  %}                         {# new final #}
+
+{% ifchanged line.homophone %}                          {# early mandarin #}
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr class="source">
+  <td class="sourcemargin">
+   <a href="../../zhongyuanyinyuntextbyrhyme/{{ line.rhyme }}">
+   {{ line.rhyme }}
+   </a>
+  </td>
+  <td class="sourcelabel">
+  {{ line.homophone }}
+  </td>
+  <td class="sourcelabel">
+  {{ line.reading }}
+  </td>
+  <td class="outersourcetext">
+   <table class="sourcetext">
+    <tr class="sourcetext">
+{% endifchanged %}
+
+     <td class="innersourcetext">
+     <a href="../../glyph/{{ line.codepoint }}">
+     {{ line.glyph }}
+     </a>
+     </td>
+
+{% ifnotequal line.annotation '' %}                         {# annotation #}
+     <td class="innersourcetext">
+     [{{ line.annotation }}]
+     </td>
+{% endifnotequal %}
+
+{% endfor %}
+     
+    </tr>
+   </table>
+  </td>
+ </tr>
+</table>
+     
+{% include "bottom.html" %}

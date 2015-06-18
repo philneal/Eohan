@@ -1,0 +1,31 @@
+﻿aɣ	ak al aŋ ǝɣ aj ǝj
+aɥ	akɥ aŋɥ aw aɣ an ak
+ak	akw akɥ aɣ al ǝk aŋ
+aj	ǝj akj ak aɣ al
+am	ǝm ap
+al	an ǝl aj at
+an	at al aj ǝn aŋj
+aŋj	ǝŋj an aŋ akj aj
+at	ǝt akj aj al aŋ
+aw	akw aɥ aɣ am
+ǝŋ	aŋ ǝɣ ǝk
+ǝŋw	
+ǝt	at ǝɣ ǝk ǝn ǝl ǝj ǝkj
+ǝw	aw ǝkw ǝɣ ǝl
+ǝp	ap ǝm ǝt
+aŋ	aɣ aŋj ǝŋ ak
+aŋɥ	akɥ
+ǝɣ	aɣ ǝk ǝl ǝj ǝŋ ǝw ǝŋw
+ǝm	ǝp ǝw
+ǝl	al ǝɣ ǝn ǝŋj ǝt ǝw
+ǝj	aj ǝl 
+ǝn	an ǝl ǝj ǝt
+ǝŋj	ǝn aŋj ǝŋ ǝj ǝkj
+ǝk	ǝt ǝkj ǝkw
+ǝkw	ǝk ǝw
+ǝkj	ǝk ǝŋj
+ap	at am ak ǝp aɥ aɣ
+akw	aɥ ak aw ǝkw akɥ
+akj	
+akɥ	aɥ ak akw aŋɥ aɣ
+-	

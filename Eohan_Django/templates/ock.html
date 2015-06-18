@@ -1,0 +1,32 @@
+{% include "top.html" %}
+<h2 class="text">Old Chinese</h2>
+<table class="outerreading">
+<tr>
+ <th class="readingglyph"></th>
+ <th class="emc">EMC</th>
+ <th class="mcb">MCB</th>
+ <th class="mck">MCK</th>
+ <th class="ocp">OCP</th>
+ <th class="ocb">OCB</th>
+ <th class="ock">OCK</th>
+</tr>
+
+{% for final in ock  %}
+<tr>
+{% ifchanged final.codepoint %}
+<td class="readingglyph"><a href="../../glyph/{{ final.codepoint }}">
+{{ final.glyph }}
+</a></td>
+{% else %}
+<td class="readingglyph"></td>
+{% endifchanged %}
+<td class="emc">{{ final.emc }}</td>
+<td class="mcb">{{ final.mcb }}</td>
+<td class="mck">{{ final.mck }}</td>
+<td class="ocp">{{ final.pulleyblank }}</td>
+<td class="ocb">{{ final.baxter }}</td>
+<td class="ock">{{ final.karlgren }}</td>
+</tr>
+{% endfor %}
+</table>
+{% include "bottom.html" %}
